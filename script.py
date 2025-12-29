@@ -7,34 +7,31 @@ from tqdm import tqdm
 import json
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from groq import Groq
-import os
+import subprocess
 
 # -------------------------
 # CONFIGURATION
 # -------------------------
 CSV_PATH = "Master_Inventory - Master_Inventory.csv"
 OUTPUT_PATH = "Master_Inventory_enriched.csv"
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "ENTER_YOUR_GROQ_API_KEY")
 
-# Model settings - BEST OPTIONS:
-# "llama-3.3-70b-versatile" - Most accurate, best for technical content (RECOMMENDED)
-# "llama-3.1-70b-versatile" - Alternative if 3.3 has issues
-# "mixtral-8x7b-32768" - Faster but slightly less accurate
-MODEL_NAME = "llama-3.3-70b-versatile"
+# Ollama model settings
+# Recommended models (download with: ollama pull <model>):
+# "llama3.2:3b" - Fast, good quality (4GB)
+# "llama3.1:8b" - Better quality, slower (5GB)
+# "qwen2.5:7b" - Great for technical content (4.7GB)
+OLLAMA_MODEL = "llama3:8b"  # Change this to your downloaded model
 
-REQUEST_DELAY = 20  # Groq is VERY fast with high rate limits
-MAX_WORKERS = 2  # High parallel processing
-SAVE_INTERVAL = 5  # Save progress every N rows
-
-# Configure Groq
-client = Groq(api_key=GROQ_API_KEY)
+REQUEST_DELAY = 0.5  # Small delay between requests (local, so fast)
+MAX_WORKERS = 2  # Conservative for local processing
+SAVE_INTERVAL = 5
+DEBUG_MODE = True
 
 # -------------------------
-# TEXT EXTRACTION
+# TEXT EXTRACTION (downloads PDFs from URLs)
 # -------------------------
 def extract_text_from_url(url):
-    """Extract text from PDF or HTML datasheet"""
+    """Extract text from PDF or HTML datasheet - USES INTERNET"""
     if pd.isna(url) or not url or url == "Not Found":
         return None
     
@@ -56,8 +53,7 @@ def extract_text_from_url(url):
                         text_parts.append(page_text)
                 
                 full_text = "\n".join(text_parts)
-                # Groq handles up to 32k tokens well
-                words = full_text.split()[:4000]
+                words = full_text.split()[:3500]  # Limit for local model
                 return " ".join(words)
         
         # Handle HTML/web pages
@@ -71,7 +67,7 @@ def extract_text_from_url(url):
                 tag.decompose()
             
             text = soup.get_text(separator='\n', strip=True)
-            words = text.split()[:4000]
+            words = text.split()[:3500]
             return " ".join(words)
     
     except Exception as e:
@@ -81,108 +77,117 @@ def extract_text_from_url(url):
 # -------------------------
 # PROMPT
 # -------------------------
-EXTRACTION_PROMPT = """You are an electronics technical documentation expert. Analyze this datasheet and extract information.
+EXTRACTION_PROMPT = """You are an electronics technical expert. Extract specifications from this datasheet.
 
-Product Information:
-- Part Number: {part_number}
-- Product Name: {product_name}
-- Category: {category}
+Product: {part_number} - {product_name} ({category})
 
-Datasheet Content:
+Datasheet:
 {datasheet_text}
 
-Return ONLY valid JSON with this structure (no markdown, no code blocks, no extra text):
+Output ONLY valid JSON, no other text:
 
 {{
-  "seo_description": "Write a compelling 120-150 word product description for e-commerce. Include key features, applications, benefits in professional but accessible language. No line breaks in the description.",
+  "seo_description": "120-150 word product description with key features and applications",
   "technical_specifications": {{
     "Part Number": "{part_number}",
-    "Product Type": "value or N/A",
-    "Manufacturer": "value or N/A",
-    "Operating Voltage": "value or N/A",
-    "Current Rating": "value or N/A",
-    "Power Rating": "value or N/A",
-    "Package Type": "value or N/A",
-    "Temperature Range": "value or N/A",
-    "Interface": "value or N/A",
+    "Product Type": "type",
+    "Manufacturer": "maker",
+    "Operating Voltage": "voltage",
+    "Current Rating": "current",
+    "Package Type": "package",
+    "Temperature Range": "temp range",
+    "Interface": "interface type",
     "Key Features": ["feature1", "feature2"],
-    "Applications": ["app1", "app2"],
-    "Dimensions": "value or N/A"
+    "Applications": ["app1", "app2"]
   }}
 }}
 
-CRITICAL RULES:
-1. Extract ONLY explicitly stated information from the datasheet
-2. Use "N/A" for missing specifications
-3. Return ONLY the JSON object - no explanations, no markdown formatting
-4. Ensure all JSON strings are properly escaped
-5. Keep seo_description as a single paragraph without line breaks"""
+Rules: Extract only stated info. Use "N/A" if not found. Output ONLY JSON, no markdown, no explanations."""
 
 # -------------------------
-# GROQ API CALL
+# OLLAMA API CALL (LOCAL)
 # -------------------------
-def call_groq(part_number, product_name, category, datasheet_text):
-    """Call Groq API to extract specs and generate description"""
-    try:
-        prompt = EXTRACTION_PROMPT.format(
-            part_number=part_number,
-            product_name=product_name,
-            category=category,
-            datasheet_text=datasheet_text
-        )
-        
-        response = client.chat.completions.create(
-            model=MODEL_NAME,
-            messages=[
-                {
-                    "role": "system",
-                    "content": "You are a technical documentation expert. Always return valid JSON only, with no markdown formatting or code blocks."
-                },
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
-            temperature=0.1,
-            max_tokens=2500,
-            response_format={"type": "json_object"}  # Force JSON mode
-        )
-        
-        result_text = response.choices[0].message.content.strip()
-        
-        # Aggressive JSON cleaning (just in case)
-        if "```json" in result_text:
-            result_text = result_text.split("```json")[1].split("```")[0]
-        elif "```" in result_text:
-            result_text = result_text.split("```")[1].split("```")[0]
-        
-        # Find actual JSON boundaries
-        start_idx = result_text.find('{')
-        end_idx = result_text.rfind('}')
-        
-        if start_idx != -1 and end_idx != -1:
-            result_text = result_text[start_idx:end_idx+1]
-        
-        result_text = result_text.strip()
-        
-        # Parse JSON
-        data = json.loads(result_text)
-        
-        return {
-            'seo_description': data.get('seo_description', 'N/A'),
-            'technical_specifications': json.dumps(
-                data.get('technical_specifications', {}), 
-                indent=2
-            )
-        }
+def call_ollama(part_number, product_name, category, datasheet_text, max_retries=2):
     
-    except json.JSONDecodeError as e:
-        print(f"\n⚠️  JSON parse error for {part_number}: {e}")
-        print(f"   Response preview: {result_text[:200] if 'result_text' in locals() else 'N/A'}...")
-        return None
-    except Exception as e:
-        print(f"\n⚠️  API error for {part_number}: {e}")
-        return None
+    for attempt in range(max_retries):
+        try:
+            prompt = EXTRACTION_PROMPT.format(
+                part_number=part_number,
+                product_name=product_name,
+                category=category,
+                datasheet_text=datasheet_text
+            )
+            
+            # Call Ollama via subprocess with proper encoding
+            process = subprocess.Popen(
+                ['ollama', 'run', OLLAMA_MODEL],
+                stdin=subprocess.PIPE,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True,
+                encoding='utf-8',  # Force UTF-8 encoding
+                errors='replace'   # Replace problematic characters
+            )
+            
+            stdout, stderr = process.communicate(input=prompt, timeout=120)
+            
+            if process.returncode != 0:
+                raise Exception(f"Ollama error: {stderr}")
+            
+            result_text = stdout.strip()
+            
+            # Clean markdown formatting
+            if "```json" in result_text:
+                result_text = result_text.split("```json")[1].split("```")[0]
+            elif "```" in result_text:
+                result_text = result_text.split("```")[1].split("```")[0]
+            
+            # Find JSON boundaries
+            start_idx = result_text.find('{')
+            end_idx = result_text.rfind('}')
+            
+            if start_idx != -1 and end_idx != -1:
+                result_text = result_text[start_idx:end_idx+1]
+            
+            result_text = result_text.strip()
+            
+            # Parse JSON
+            data = json.loads(result_text)
+            specs = data.get('technical_specifications', {})
+            
+            if DEBUG_MODE:
+                print(f"\n✓ {part_number} - Extracted {len(specs)} specifications")
+            
+            specs_formatted = json.dumps(specs, indent=2, ensure_ascii=False)
+            
+            return {
+                'seo_description': data.get('seo_description', 'N/A'),
+                'technical_specifications': specs_formatted
+            }
+        
+        except json.JSONDecodeError as e:
+            print(f"\n⚠️  JSON parse error for {part_number}: {e}")
+            if DEBUG_MODE and 'result_text' in locals():
+                print(f"   Raw output (first 300 chars): {result_text[:300]}")
+            if attempt < max_retries - 1:
+                print(f"   Retrying...")
+                time.sleep(2)
+                continue
+            return None
+        
+        except subprocess.TimeoutExpired:
+            print(f"\n⚠️  Timeout for {part_number} (model took too long)")
+            process.kill()
+            return None
+        
+        except Exception as e:
+            print(f"\n⚠️  Error for {part_number}: {e}")
+            if attempt < max_retries - 1:
+                time.sleep(2)
+                continue
+            return None
+    
+    return None
 
 # -------------------------
 # PROCESS SINGLE ROW
@@ -195,18 +200,18 @@ def process_single_row(idx, row):
     datasheet_url = row.get('Datasheet URL', '')
     
     try:
-        # Extract datasheet text
+        # Extract datasheet text (uses internet)
         datasheet_text = extract_text_from_url(datasheet_url)
         
         if not datasheet_text or len(datasheet_text.strip()) < 200:
-            return idx, None, None, f"Insufficient text extracted ({len(datasheet_text) if datasheet_text else 0} chars)"
+            return idx, None, None, f"Insufficient text extracted"
         
-        # Call Groq
+        # Call Ollama (local processing, no internet)
         time.sleep(REQUEST_DELAY)
-        result = call_groq(part_number, product_name, category, datasheet_text)
+        result = call_ollama(part_number, product_name, category, datasheet_text)
         
         if not result:
-            return idx, None, None, "API returned no data"
+            return idx, None, None, "Model returned no data"
         
         return idx, result['seo_description'], result['technical_specifications'], None
     
@@ -214,14 +219,55 @@ def process_single_row(idx, row):
         return idx, None, None, str(e)
 
 # -------------------------
+# CHECK OLLAMA INSTALLATION
+# -------------------------
+def check_ollama():
+    """Check if Ollama is installed and model is available"""
+    try:
+        # Check if ollama command exists
+        result = subprocess.run(['ollama', 'list'], capture_output=True, text=True)
+        
+        if result.returncode != 0:
+            print("❌ Ollama is not installed!")
+            print("\nInstall with:")
+            print("  curl -fsSL https://ollama.com/install.sh | sh")
+            print("\nOr visit: https://ollama.com/download")
+            return False
+        
+        # Check if model is downloaded
+        if OLLAMA_MODEL not in result.stdout:
+            print(f"❌ Model '{OLLAMA_MODEL}' is not downloaded!")
+            print(f"\nDownload with:")
+            print(f"  ollama pull {OLLAMA_MODEL}")
+            print("\nAvailable models:")
+            print("  ollama pull llama3.2:3b    (4GB - Fast)")
+            print("  ollama pull llama3.1:8b    (5GB - Better quality)")
+            print("  ollama pull qwen2.5:7b     (4.7GB - Great for technical)")
+            return False
+        
+        print(f"✅ Ollama is ready with model: {OLLAMA_MODEL}")
+        return True
+    
+    except FileNotFoundError:
+        print("❌ Ollama is not installed!")
+        print("\nInstall with:")
+        print("  curl -fsSL https://ollama.com/install.sh | sh")
+        print("\nOr visit: https://ollama.com/download")
+        return False
+
+# -------------------------
 # MAIN PROCESSING
 # -------------------------
 def main():
     print("=" * 60)
     print("Electronic Components Datasheet Enrichment")
-    print(f"Provider: Groq (FREE)")
-    print(f"Model: {MODEL_NAME}")
+    print(f"Provider: Ollama (Local, 100% FREE)")
+    print(f"Model: {OLLAMA_MODEL}")
     print("=" * 60)
+    
+    # Check Ollama installation
+    if not check_ollama():
+        return
     
     # Load CSV
     print(f"\n📂 Loading CSV: {CSV_PATH}")
@@ -247,15 +293,16 @@ def main():
         print("   ✓ All rows already processed!")
         return
     
-    # Estimate time
-    estimated_minutes = (total * REQUEST_DELAY) / 60 / MAX_WORKERS
-    print(f"⏱️  Estimated time: ~{estimated_minutes:.1f} minutes")
+    # Estimate time (local models are slower)
+    estimated_minutes = (total * 15) / 60  # ~15 seconds per item
+    print(f"⏱️  Estimated time: ~{estimated_minutes:.0f} minutes")
     
     # Process rows
     successful = 0
     failed = 0
     
     print(f"\n⚙️  Processing with {MAX_WORKERS} parallel workers...\n")
+    print("💡 Note: Local processing is slower but FREE with no limits!\n")
     
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         future_to_idx = {
@@ -291,8 +338,7 @@ def main():
     print("=" * 60)
     print(f"✓ Successful: {successful}")
     print(f"✗ Failed: {failed}")
-    print(f"⚡ Model: {MODEL_NAME}")
-    print(f"💰 Cost: FREE")
+    print(f"💰 Cost: FREE (Local processing)")
     print(f"📄 Output: {OUTPUT_PATH}")
     print("=" * 60)
 
