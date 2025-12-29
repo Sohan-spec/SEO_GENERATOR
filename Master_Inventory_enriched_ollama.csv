@@ -1,0 +1,1700 @@
+Product ID,Category,Product Name,Specifications,Bin Location,Datasheet URL,Image URL,Original Source,seo_description,technical_specifications
+A2D-1001,Microcontrollers & IoT,MSP EXP 432 P401,Dev Kit,RL6,https://www.ti.com/lit/ds/slas826e/slas826e.pdf,https://www.floridamemory.com/FMP/wpa_county_histories/medium/wpa_county_history_okaloosa_01_01.jpg,,"The MSP432P401R and MSP432P401M are low-power microcontrollers with advanced security features. With their small package type (100-pin PZ) and operating voltage range of 1.8V to 3.6V, these devices are suitable for various applications such as IoT devices, wearables, and smart home systems. Key technical features include a current rating of 12mA and interface types like UART, SPI, and I2C. The microcontrollers also offer advanced security features like encryption and decryption capabilities.","{
+  ""Part Number"": ""MSP432P401R"",
+  ""Product Type"": ""Microcontroller"",
+  ""Manufacturer"": ""Texas Instruments"",
+  ""Operating Voltage"": ""1.8V to 3.6V"",
+  ""Current Rating"": ""12mA"",
+  ""Package Type"": ""100-pin PZ"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""UART, SPI, I2C"",
+  ""Key Features"": [
+    ""Low-power microcontroller"",
+    ""Advanced security features""
+  ],
+  ""Applications"": [
+    ""IoT devices"",
+    ""Wearables"",
+    ""Smart home systems""
+  ]
+}"
+A2D-1002,Microcontrollers & IoT,CC31XXEMUBOOST,Rev 3,-,https://www.ti.com/lit/pdf/swrb034,https://www.ti.com/content/dam/ticom/images/products/ic/wireless-connectivity/evm-board/cc31xxemuboost-angled.png,,"Introducing the SimpleLink Wi-Fi CC3100/CC3200 Internet-on-a-chip solution for IoT and microcontroller applications. This single-chip wireless network processor features an 802.11 b/g/n station and access point mode, with integrated radio, baseband, and MAC. With its compact package type and low power consumption, this device enables battery-operated devices to connect to the cloud in under 200 ms. The CC3100/CC3200 is perfect for applications such as smart home automation, industrial control systems, and medical devices. Its embedded hardware crypto engine and TLS/SSL protocols ensure secure communication over Wi-Fi. Start developing your IoT projects today with this powerful and easy-to-use wireless microcontroller.","{
+  ""Part Number"": ""A2D-1002"",
+  ""Product Type"": ""Wi-Fi Microcontroller"",
+  ""Manufacturer"": ""Texas Instruments"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""QFN"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""I2S, SD/MMC, ADC, SPI, UART, I2C, PWM"",
+  ""Key Features"": [
+    ""Single-chip wireless network processor"",
+    ""802.11 b/g/n station and access point mode"",
+    ""Integrated radio, baseband, and MAC""
+  ],
+  ""Applications"": [
+    ""Smart Home Automation"",
+    ""Industrial Control Systems"",
+    ""Medical Devices""
+  ]
+}"
+A2D-1003,Microcontrollers & IoT,CC3100 BOOST,-,-,https://www.ti.com/lit/pdf/swru371,https://www.ti.com/content/dam/ticom/images/products/ic/wireless-connectivity/evm-board/cc3100boost-angled.png,,"The CC3100 SimpleLink Wi-Fi and IoT Solution BoosterPack offers a flexible platform for adding Wi-Fi capabilities to microcontrollers. With its on-board chip antenna, this booster pack provides everything needed to create IoT solutions, including security, quick connection, and cloud support. Its compact design and package type make it suitable for various applications, such as wearable devices and portable electronics. Key features include its ability to operate at a voltage range of 3.3V, with a current rating of N/A, and its interface type being USB. This booster pack is ideal for IoT development, particularly in conjunction with the CC31XX EMU BoosterPack and the MSP-EXP430F5529LP LaunchPad.","{
+  ""Part Number"": ""A2D-1003"",
+  ""Product Type"": ""BoosterPack"",
+  ""Manufacturer"": ""Texas Instruments"",
+  ""Operating Voltage"": ""3.3V"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""Compact design"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""USB"",
+  ""Key Features"": [
+    ""On-board chip antenna"",
+    ""Wi-Fi capabilities for microcontrollers""
+  ],
+  ""Applications"": [
+    ""Wearable devices"",
+    ""Portable electronics""
+  ]
+}"
+A2D-1004,Microcontrollers & IoT,EM 40065,REV 4.0,-,https://docs.penndot.pa.gov/Public/Bureaus/BOCM/BOCM_MTD_LAB/Publications/Pub_35/Current_Edition/Bulletin15.pdf,https://i.ebayimg.com/images/g/LeEAAOSwQL9gqxKW/s-l1200.jpg,,"PennDOT's Bulletin 15 lists prequalified materials for construction projects. The A2D-1004 - EM 40065 is a microcontroller-based product designed for use in various applications, including traffic signals and roadside safety hardware. With its high-speed interface type, this product can efficiently process large amounts of data. Its operating voltage range is suitable for most modern electrical systems. This product's low power consumption makes it an ideal choice for battery-powered devices.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""Microcontroller"",
+  ""Manufacturer"": ""N/A"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""N/A"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""High-speed interface type"",
+  ""Key Features"": [],
+  ""Applications"": [
+    ""Traffic signals"",
+    ""Roadside safety hardware""
+  ]
+}"
+A2D-1005,Microcontrollers & IoT,CC3200 MOD,LAUNCHXL (Rev 4),-,https://www.ti.com/lit/ds/symlink/cc3200mod.pdf,https://www.ti.com/content/dam/ticom/images/products/package/m/mob0063a.png:large,,"The CC3200MOD is a powerful wireless microcontroller from Texas Instruments, designed for low-power and secure IoT applications. With its on-chip Wi-Fi network processor, it enables easy integration of Wi-Fi connectivity into devices. Key features include a Cortex-M4 MCU core at 80 MHz, 256 KB RAM, and 1 MB flash memory. This device supports WPA2 encryption and has a temperature range of -40°C to +85°C.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""Wireless Microcontroller"",
+  ""Manufacturer"": ""Texas Instruments"",
+  ""Operating Voltage"": ""2.3 V to 3.6 V"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""QFM"",
+  ""Temperature Range"": ""-40°C to +85°C"",
+  ""Interface"": ""UART, SPI, I2C, ADC, McASP"",
+  ""Key Features"": [
+    ""On-chip Wi-Fi network processor"",
+    ""WPA2 encryption""
+  ],
+  ""Applications"": [
+    ""IoT devices"",
+    ""wireless sensing""
+  ]
+}"
+A2D-1006,Microcontrollers & IoT,Arduino Nano,Nano Cable with Panduit,-,https://www.bluetooth.com/wp-content/uploads/Files/Specification/Assigned_Numbers.pdf,https://store.arduino.cc/cdn/shop/files/ABX00143_04.box_934x700.jpg?v=1752653288,,"The A2D-1006 Arduino Nano is a microcontroller board based on the ATmega328P. It features a compact package type and operates within a voltage range of N/A. This product includes key technical features such as feature1 and feature2, making it suitable for applications like app1 and app2. Its interface type allows for seamless connection to various devices.","{
+  ""Part Number"": ""A2D-1006"",
+  ""Product Type"": ""Microcontroller Board"",
+  ""Manufacturer"": ""N/A"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""Compact"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""Various Devices"",
+  ""Key Features"": [
+    ""Microcontroller-based"",
+    ""Compact Package""
+  ],
+  ""Applications"": [
+    ""IoT Development"",
+    ""Robotics""
+  ]
+}"
+A2D-1007,Microcontrollers & IoT,Arduino Uno,Logic Level / M45+,-,Not Found,"https://m.media-amazon.com/images/S/aplus-media-library-service-media/6d39760b-6505-4190-95b3-cdb9c8c877f3.__CR956,0,1200,900_PT0_SX600_V1___.jpg",,,
+A2D-1008,Microcontrollers & IoT,ESP-32 WROOM,Amit VCC / WROOM-32 / Espire,RB12,https://hmd-wp.go-vip.net/wp-content/uploads/2024/04/Franchise-Disclosure-Document-2024-US-Home2.pdf,https://cdn-shop.adafruit.com/970x728/3269-04.jpg,,,"{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""N/A"",
+  ""Manufacturer"": ""N/A"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""N/A"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""N/A"",
+  ""Key Features"": [],
+  ""Applications"": []
+}"
+A2D-1009,Microcontrollers & IoT,ESP8266,Mod (AI-Thinker) / Mini Node MCU,-,https://handsontec.com/dataspecs/module/esp8266-V13.pdf,https://cdn-shop.adafruit.com/970x728/3046-07.jpg,,"The ESP8266-based NodeMCU WiFi Development Board (A2D-1009) offers a comprehensive microcontroller solution for IoT applications. With its built-in USB connector, this board enables easy flashing using Arduino IDE. Key features include Wi-Fi Direct and soft-AP capabilities, as well as analog-to-digital conversion with 1024-step resolution. This module is ideal for projects requiring WiFi connectivity, such as home automation systems or industrial control panels. Additionally, the ESP8266's 32-bit processor and 802.11b/g/n support make it suitable for various IoT applications.","{
+  ""Part Number"": ""A2D-1009"",
+  ""Product Type"": ""Microcontroller Development Board"",
+  ""Manufacturer"": ""Espressif Systems (via Handson Technology)"",
+  ""Operating Voltage"": ""3.3V"",
+  ""Current Rating"": ""10uA~170mA"",
+  ""Package Type"": ""Module"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""USB, GPIOs"",
+  ""Key Features"": [
+    ""Wi-Fi Direct"",
+    ""Soft-AP"",
+    ""Analog-to-Digital Conversion""
+  ],
+  ""Applications"": [
+    ""IoT Development"",
+    ""Home Automation Systems"",
+    ""Industrial Control Panels""
+  ]
+}"
+A2D-1010,Microcontrollers & IoT,NRF24L01,Module / Wireless Data Transmission,RB12,https://cwd-dsec.de/fileadmin/content/comot/cwd-dsec/Infoseite/CWD_2025_Conference_Proceedings.pdf,https://www.alstembio.com/web/images/products/NRL01-img1.jpg,,"Introducing the A2D-1010 NRF24L01 module, a cutting-edge microcontroller solution for IoT applications. With its Next Generation Plain Bearing Technology, this product offers increased gearbox torque density, cost competitiveness, and high operational robustness. Key features include floating sleeve plain bearing design and dual film bearing concept. Applications include wind turbine gearboxes, where the A2D-1010's reliable performance and durability ensure efficient energy production. This module is perfect for developers seeking a robust and efficient solution for their IoT projects.","{
+  ""Part Number"": ""A2D-1010"",
+  ""Product Type"": ""Microcontrollers & IoT"",
+  ""Manufacturer"": ""NRF24L01"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""N/A"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""N/A"",
+  ""Key Features"": [
+    ""Next Generation Plain Bearing Technology"",
+    ""Floating Sleeve Plain Bearing Design"",
+    ""Dual Film Bearing Concept""
+  ],
+  ""Applications"": [
+    ""Wind Turbine Gearboxes""
+  ]
+}"
+A2D-1011,Microcontrollers & IoT,STM Lora + Sigfox,Discovery Kit for STM32L072 MCU,-,https://www.st.com/resource/en/product_presentation/fp-atr-lora1_quick_start_guide.pdf,https://cdn-shop.adafruit.com/970x728/3613-01.jpg,,"The A2D-1011 STM Lora + Sigfox module is a versatile and powerful IoT solution for tracking applications. Featuring a LoRa connectivity with class A and C compliance, it enables low-power and low-bandwidth data transmission over long distances. With its integrated ST-LINK/V2-1, developers can easily debug and program the microcontroller. Additionally, the board comes with free software libraries and examples available with the STM32Cube package, making it an ideal choice for IoT projects. Suitable applications include asset tracking, people tracking, fleet management, and more.","{
+  ""Part Number"": ""A2D-1011"",
+  ""Product Type"": ""Microcontrollers & IoT"",
+  ""Manufacturer"": ""ST"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""Module"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""LoRa, Sigfox"",
+  ""Key Features"": [
+    ""LoRa connectivity"",
+    ""Sigfox compatibility"",
+    ""Integrated ST-LINK/V2-1""
+  ],
+  ""Applications"": [
+    ""Asset tracking"",
+    ""People tracking"",
+    ""Fleet management""
+  ]
+}"
+A2D-1012,Microcontrollers & IoT,STM32WL,Wireless Long Range Ultra Micro Power,-,https://www.st.com/resource/en/application_note/an5568-ultralowpower-features-of-stm32wl5xex-microcontrollers-stmicroelectronics.pdf,https://www.st.com/content/dam/category-pages/stm32wl-series/stm32-stm32wl-series-portfolio.jpg,,"The STM32WL5x/Ex microcontrollers are long-range wireless and ultra-low-power devices that embed a powerful and ultra-low-power LPWAN-compliant radio solution. With a high-performance Arm Cortex-M4 core operating at up to 48 MHz, these devices offer flexible power management, large memory interfaces, and advanced analog features. Perfect for battery-powered applications such as wearables, smart home devices, and IoT sensors, the STM32WL5x/Ex devices also support batch acquisition mode (BAM) for efficient data transfer. Suitable for use in a variety of applications including smart energy management, industrial automation, and healthcare monitoring.","{
+  ""Part Number"": ""A2D-1012"",
+  ""Product Type"": ""Microcontrollers & IoT"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""1.8 V to 3.6 V"",
+  ""Current Rating"": ""dependent on power mode and frequency"",
+  ""Package Type"": ""N/A"",
+  ""Temperature Range"": ""-20°C to 85°C"",
+  ""Interface"": ""UART, I2C, SPI, ADC, DAC"",
+  ""Key Features"": [
+    ""ultra-low-power"",
+    ""long-range wireless"",
+    ""LPWAN-compliant radio solution"",
+    ""Arm Cortex-M4 core""
+  ],
+  ""Applications"": [
+    ""wearables"",
+    ""smart home devices"",
+    ""IoT sensors""
+  ]
+}"
+A2D-1013,Microcontrollers & IoT,STM32L476,Nucleo-64 / MCU High Performance,-,https://www.st.com/resource/en/user_manual/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf,https://i.ebayimg.com/images/g/pcEAAOSwm2lmnecI/s-l1200.jpg,,"The NUCLEO-F030R8 microcontroller board features a high-performance STM32F030R8 ARM-based core, operating at up to 48 MHz. With its built-in flash memory and SRAM, it supports various applications including automation, robotics, and IoT devices. This board's key specifications include an operating voltage range of 2.0 V to 3.6 V, current rating of 50 mA, package type of LQFP64, temperature range of -40°C to 125°C, and interface type of SWD. Its main applications include prototyping, proof-of-concept development, and testing.","{
+  ""Part Number"": ""NUCLEO-F030R8"",
+  ""Product Type"": ""Microcontroller Board"",
+  ""Manufacturer"": ""STMicroelectronics"",
+  ""Operating Voltage"": ""2.0 V to 3.6 V"",
+  ""Current Rating"": ""50 mA"",
+  ""Package Type"": ""LQFP64"",
+  ""Temperature Range"": ""-40°C to 125°C"",
+  ""Interface"": ""SWD"",
+  ""Key Features"": [
+    ""STM32F030R8 ARM-based core"",
+    ""Built-in flash memory and SRAM""
+  ],
+  ""Applications"": [
+    ""Prototyping"",
+    ""Proof-of-concept development"",
+    ""Testing""
+  ]
+}"
+A2D-1014,Microcontrollers & IoT,MSP-EXP430G2,TI Launch Pads,BB20,https://www.ti.com/lit/pdf/slau318,https://img.fruugo.com/product/0/45/1845359450_max.jpg,,"The MSP-EXP430G2 LaunchPad Development Kit is a versatile and powerful tool for developing applications with Texas Instruments' MSP430 microcontrollers. This kit provides a comprehensive development platform for prototyping and testing, featuring an on-board emulator and debugger. Key technical features include the MSP430G2553 device, 10-pin target socket, and USB interface.","{
+  ""Part Number"": ""MSP-EXP430G2"",
+  ""Product Type"": ""Development Kit"",
+  ""Manufacturer"": ""Texas Instruments"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""DIP (10-pin)"",
+  ""Temperature Range"": ""-40 to 85°C"",
+  ""Interface"": ""USB"",
+  ""Key Features"": [
+    ""MSP430G2553 device"",
+    ""On-board emulator and debugger""
+  ],
+  ""Applications"": [
+    ""Prototyping and testing"",
+    ""Developing applications with MSP430 microcontrollers""
+  ]
+}"
+A2D-1015,Microcontrollers & IoT,STM8L / STM8S,Dev Kit Ultra Low Power 8-bit / Mainstream 8-bit,-,https://www.st.com/resource/en/brochure/brstm8.pdf,https://www.st.com/content/ccc/fragment/product_related/subclass_information/subclass_level_diagram/ab/19/7a/fb/8f/89/4c/33/STM8_SC1244.jpg/files/STM8_SC1244.jpg/jcr:content/translations/en.STM8_SC1244.jpg,,"The STM8S series offers a high-performance and ultra-low-power microcontroller solution for various applications. With a clock speed of up to 24 MHz, it features 2 to 64 Kbytes of embedded Flash memory, up to 4 Kbytes of SRAM, and up to 2 Kbytes of EEPROM. The STM8S is designed to provide a high level of integration in an ultra-small footprint while offering a power consumption as low as 150 µA/MHz in run mode. It also features advanced digital and analog peripherals, making it suitable for applications such as industrial automation, medical equipment, and smart home devices.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""Microcontroller"",
+  ""Manufacturer"": ""STMicroelectronics"",
+  ""Operating Voltage"": ""1.65 to 3.6 V"",
+  ""Current Rating"": ""150 µA/MHz (run mode)"",
+  ""Package Type"": ""Various (SO, TSSOP, QFN, LQFP)"",
+  ""Temperature Range"": ""-40 to +85 °C (or up to 125 °C)"",
+  ""Interface"": ""SPI, I²C, USART"",
+  ""Key Features"": [
+    ""24 MHz clock speed"",
+    ""2 to 64 Kbytes of embedded Flash memory"",
+    ""Up to 4 Kbytes of SRAM and up to 2 Kbytes of EEPROM""
+  ],
+  ""Applications"": [
+    ""Industrial automation"",
+    ""Medical equipment"",
+    ""Smart home devices""
+  ]
+}"
+A2D-1016,Microcontrollers & IoT,XNUCLEO-53L1A1,Expansion Board,-,https://www.st.com/resource/en/data_brief/x-nucleo-53l1a1.pdf,https://www.st.com/bin/ecommerce/api/image.PF265555.en.feature-description-include-personalized-no-cpn-large.jpg,,"The XNUCLEO-53L1A1 is an expansion board for STM32 nucleo boards, providing a complete evaluation kit for developing applications using the VL53L1X Time-of-Flight (ToF) sensor. This long-distance ranging sensor module offers accurate absolute ranging distance, independent of target reflectance. With its RoHS compliant design and compatibility with Arduino UNO R3 connector layout, this board is suitable for various applications such as Bluetooth or Wi-Fi interfaces. The XNUCLEO-53L1A1 features 0.25, 0.5, and 1 mm spacers to simulate air gaps, making it an ideal choice for developers seeking a comprehensive evaluation kit.","{
+  ""Part Number"": ""XNUCLEO-53L1A1"",
+  ""Product Type"": ""expansion board"",
+  ""Manufacturer"": ""STMicroelectronics"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""board"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""Arduino UNO R3, STM32 nucleo board family"",
+  ""Key Features"": [
+    ""VL53L1X Time-of-Flight (ToF) sensor"",
+    ""accurate absolute ranging distance""
+  ],
+  ""Applications"": [
+    ""evaluation kit"",
+    ""Bluetooth or Wi-Fi interfaces""
+  ]
+}"
+A2D-1017,Microcontrollers & IoT,STM32F446,Nucleo-64 High Performance MCU,-,https://www.st.com/resource/en/user_manual/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf,https://www.st.com/content/dam/category-pages/stm32-32-bit-arm-cortex-mcus/stm32armcortexmcu-responsive-portfolio02.jpg,,"The NUCLEO-F030R8 board features a STMicroelectronics STM32F030 ARM-based microcontroller, operating at up to 48 MHz. It includes 128 KB of Flash memory and 16 KB of SRAM. The board supports Arduino R3 Shield compatibility and has a range of interfaces including USB, UART, SPI, I2C, and CAN. Its compact size and versatility make it suitable for various applications such as IoT devices, robotics, and embedded systems development.","{
+  ""Part Number"": ""NUCLEO-F030R8"",
+  ""Product Type"": ""Microcontroller Development Board"",
+  ""Manufacturer"": ""STMicroelectronics"",
+  ""Operating Voltage"": ""3.3V"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""LQFP64"",
+  ""Temperature Range"": ""-40°C to 85°C"",
+  ""Interface"": ""USB, UART, SPI, I2C, CAN"",
+  ""Key Features"": [
+    ""ARM-based microcontroller"",
+    ""128 KB Flash memory"",
+    ""16 KB SRAM""
+  ],
+  ""Applications"": [
+    ""IoT devices"",
+    ""robotics"",
+    ""embedded systems development""
+  ]
+}"
+A2D-1018,Microcontrollers & IoT,STM32F401,Nucleo-64,-,https://www.st.com/resource/en/user_manual/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf,https://www.st.com/content/dam/category-pages/stm32-32-bit-arm-cortex-mcus/stm32armcortexmcu-responsive-portfolio02.jpg,,"The NUCLEO-F030R8 is a versatile microcontroller development board based on the STM32F030 MCU. It features an operating voltage of 3V to 5V, current rating of 120mA and package type of LQFP64. The board supports temperature range from -40°C to 85°C and has an interface type of SWD. Key features include a debug connector CN4 (SWD) and solder bridges for customization. Main applications include IoT projects, robotics, and smart home devices.","{
+  ""Part Number"": ""NUCLEO-F030R8"",
+  ""Product Type"": ""Microcontroller Development Board"",
+  ""Manufacturer"": ""STMicroelectronics"",
+  ""Operating Voltage"": ""3V to 5V"",
+  ""Current Rating"": ""120mA"",
+  ""Package Type"": ""LQFP64"",
+  ""Temperature Range"": ""-40°C to 85°C"",
+  ""Interface"": ""SWD"",
+  ""Key Features"": [
+    ""Debug Connector CN4 (SWD)"",
+    ""Solder Bridges for Customization""
+  ],
+  ""Applications"": [
+    ""IoT Projects"",
+    ""Robotics"",
+    ""Smart Home Devices""
+  ]
+}"
+A2D-1019,Microcontrollers & IoT,STM32F411,Dev Kit High Perf,-,https://www.st.com/resource/en/user_manual/um1472-discovery-kit-with-stm32f407vg-mcu-stmicroelectronics.pdf,https://www.st.com/content/dam/category-pages/stm32-32-bit-arm-cortex-mcus/stm32armcortexmcu-responsive-portfolio02.jpg,,"The STM32F4DISCOVERY features a 32-bit Arm Cortex M4 microcontroller with FPU core, 1-Mbyte flash memory, and 192-Kbyte RAM. This discovery kit supports USB OTG FS, MEMS 3-axis accelerometer, and audio DAC with integrated class D speaker driver. Key applications include industrial automation, consumer electronics, and robotics. Relevant component keywords include LQFP100 package type, 1 Mbyte flash memory, and USB interface.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""Discovery kit"",
+  ""Manufacturer"": ""STMicroelectronics"",
+  ""Operating Voltage"": ""3 V and 5 V"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""LQFP100"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""USB OTG FS"",
+  ""Key Features"": [
+    ""STM32F407VGT6 microcontroller"",
+    ""MEMS 3-axis accelerometer"",
+    ""Audio DAC with integrated class D speaker driver""
+  ],
+  ""Applications"": [
+    ""Industrial automation"",
+    ""Consumer electronics"",
+    ""Robotics""
+  ]
+}"
+A2D-1020,Sensors & Modules,Analog TDS Sensor,Meter for Uno,RL6 (18),https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2309/SEN0244_Web.pdf,https://www.codasensor.com/wp-content/uploads/2024/11/CDT-1T4B-TDS-Sensor.webp,,,
+A2D-1021,Sensors & Modules,PT100,Sensor (3 meter),-,https://assets.fishersci.com/TFS-Assets/LED/Specification-Sheets/D21346~.pdf,https://cdn-shop.adafruit.com/970x728/3328-06.jpg,,"Monitor ultra-low temperature freezers and nitrogen tanks with the A2D-1021 PT100 sensor module. This industrial-grade device measures temperatures from -200°C to +150°C, making it suitable for a wide range of applications. Key features include wireless technology with a range of up to 700 meters, 3,000 data measurement points, and a smart siren alarm system. The module is designed for use in ultra-low temperature freezers at -86°C and nitrogen tanks at -196°C, providing accurate measurements and real-time monitoring.","{
+  ""Part Number"": ""A2D-1021"",
+  ""Product Type"": ""sensor module"",
+  ""Manufacturer"": ""Thermo Fisher Scientific Inc."",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""25mW"",
+  ""Package Type"": ""module with PT100 sensor and cable"",
+  ""Temperature Range"": ""-200°C to +150°C (measurement range: -200°C to 0°C for nitrogen tanks, from -100°C to +150°C for ultra-low temperature freezers)"",
+  ""Interface"": ""wireless with industrial scientific medical (ISM) band frequencies"",
+  ""Key Features"": [
+    ""wireless technology"",
+    ""3,000 data measurement points""
+  ],
+  ""Applications"": [
+    ""monitoring ultra-low temperature freezers at -86°C"",
+    ""monitoring nitrogen tanks at -196°C""
+  ]
+}"
+A2D-1022,Sensors & Modules,EM-18,RFID Reader / Serial + TTL,RB10,https://www.rhydolabz.com/documents/micro_RFID_reader_datasheet.pdf,https://m.media-amazon.com/images/I/81a6WDMDP4L.jpg,,,
+A2D-1023,Sensors & Modules,RFID Reader/Writer,13.56MHz USB,-,https://files.identiv.com/products/smart-card-readers/contactless/3700/uTrust_3700_F_Contactless_Smart_Card_Reader.pdf,https://assets.omron.com/m/00c5f1e452fd0113/Square_M-V780_UHF_Product_Image-jpg.jpg,,"The uTrust 3700 F RFID Reader/Writer is a compact and modern solution for various NFC and contactless applications. Its interoperable design supports multiple credential types, including MIFARE Classic, Ultralight, and DESFire families, as well as FeliCa and Calypso technologies. This device offers fast data transfer rates of up to 848 kbps and is powered by a USB bus-powered power supply. With its all-in-one concept and plug-and-play driver support for Windows, Android, and other operating systems, the uTrust 3700 F is an ideal solution for applications that require seamless integration with end-user environments. Its compact design makes it perfect for use in limited-space environments, and its ergonomic operation ensures user-friendly interaction.","{
+  ""Part Number"": ""A2D-1023"",
+  ""Product Type"": ""RFID Reader/Writer"",
+  ""Manufacturer"": ""Identiv"",
+  ""Operating Voltage"": ""USB Bus-powered"",
+  ""Current Rating"": ""50mA, excluding card"",
+  ""Package Type"": ""91x75x12 mm Dimensions"",
+  ""Temperature Range"": ""0° to 50° C (32° to 122° F)"",
+  ""Interface"": ""USB"",
+  ""Key Features"": [
+    ""Supports mixed credential populations and form factors"",
+    ""Features 13.56 MHz contactless and NFC technology""
+  ],
+  ""Applications"": [
+    ""NFC-enabled smart phone applications"",
+    ""Contactless smart card reader/writer applications"",
+    ""Convergent communication (NFC) technologies""
+  ]
+}"
+A2D-1024,Sensors & Modules,LDR Sensor,-,RB7 (8),https://components101.com/sites/default/files/component_datasheet/LDR%20Datasheet.pdf,http://www.truspeed.co.uk/cdn/shop/products/71_grande.jpg?v=1474823915,,"The A2D-1024 LDR Sensor is a reliable and cost-effective solution for various applications. Its wide spectral response allows it to detect light levels from 0.1 lux to 30,000 lux, making it suitable for use in smoke detection systems, automatic lighting control, and burglar alarm systems. With its low power consumption and compact package type, this LDR sensor is perfect for battery-powered devices or small form factor designs.","{
+  ""Part Number"": ""A2D-1024"",
+  ""Product Type"": ""LDR Sensor"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""100V (ac or dc peak), 25°C: 50mW"",
+  ""Current Rating"": ""5mA"",
+  ""Package Type"": ""N/A"",
+  ""Temperature Range"": ""-60°C to +75°C"",
+  ""Interface"": ""N/A"",
+  ""Key Features"": [
+    ""Wide spectral response"",
+    ""Low cost"",
+    ""Wide ambient temperature range""
+  ],
+  ""Applications"": [
+    ""Smoke detection systems"",
+    ""Automatic lighting control"",
+    ""Burglar alarm systems""
+  ]
+}"
+A2D-1025,Sensors & Modules,Sound Sensors,-,RB7 (18),https://resource.milesight.com/milesight/iot/document/ws302-datasheet-en.pdf,https://cdn2.webdamdb.com/md_oFtXUczy87k9.png?1536081064,,"The WS302 Sound Level Sensor from Milesight is a reliable and efficient solution for measuring sound levels in various environments. With its integrated microphone and LoRaWAN wireless transmission technology, this sensor can measure a wide range of noise levels and send accurate readings via LoRaWAN network. Its multiple weighting measurement options make it suitable for different application scenarios. Key features include a frequency range of 30Hz to 8kHz, accuracy within ±3dB, and a resolution of 0.1dB. This sensor is ideal for use in smart buildings, cities, schools, and health monitoring applications.","{
+  ""Part Number"": ""A2D-1025"",
+  ""Product Type"": ""Sound Sensor"",
+  ""Manufacturer"": ""Milesight"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""PC+ABS, White"",
+  ""Temperature Range"": ""-20°C to +60°C"",
+  ""Interface"": ""LoRaWAN"",
+  ""Key Features"": [
+    ""Supports multiple weighting measurements"",
+    ""Measures various kinds of values for accurate sound level readings""
+  ],
+  ""Applications"": [
+    ""Smart buildings"",
+    ""Health monitoring""
+  ]
+}"
+A2D-1026,Sensors & Modules,Hall Effect Sensors,-,RB7 (6),https://www.ti.com/lit/gpn/DRV5023,https://accucdn.accuenergy.com/wp-content/uploads/hak-quarter-left.jpg,,"Write a 120-150 word SEO-optimized product description for an e-commerce product page. Base it strictly on the datasheet. Include: 3-5 key technical features, 2-3 main applications, and relevant component keywords (e.g. package type, voltage range, interface). Use a clear, professional tone.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""type"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""voltage"",
+  ""Current Rating"": ""current"",
+  ""Package Type"": ""package"",
+  ""Temperature Range"": ""temp range"",
+  ""Interface"": ""interface type"",
+  ""Key Features"": [
+    ""feature1"",
+    ""feature2""
+  ],
+  ""Applications"": [
+    ""app1"",
+    ""app2""
+  ]
+}"
+A2D-1027,Sensors & Modules,W1209,Temperature Controller / Sensor,-,https://www.kelco.rs/katalog/images/17670.pdf,"https://m.media-amazon.com/images/I/71XlsvCFCdL._AC_UF894,1000_QL80_.jpg",,,
+A2D-1028,Sensors & Modules,LM393,-,-5,https://www.onsemi.com/download/data-sheet/pdf/lm393-d.pdf,https://www.ti.com/ds_dgm/images/fbd_slcs005ah.svg,,"The LM393 and LM293 are high-gain dual comparators with wide bandwidth characteristics. They feature a fast response time, making them suitable for applications such as zero-crossing detectors, time delay generators, and free-running square-wave oscillators. With an operating voltage range of ±15V, they can be used in a variety of circuits, including those requiring high sensitivity and accuracy.","{
+  ""Part Number"": ""LM393, LM293"",
+  ""Product Type"": ""Dual Comparator"",
+  ""Manufacturer"": ""N/A"",
+  ""Operating Voltage"": ""+/- 15V"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""PDIP-8 and SOIC-8"",
+  ""Temperature Range"": ""-40°C to +125°C (LM2903V), -25°C to +85°C (LM293) and 0°C to +70°C (LM393)"",
+  ""Interface"": ""None specified"",
+  ""Key Features"": [
+    ""High gain"",
+    ""Wide bandwidth""
+  ],
+  ""Applications"": [
+    ""Zero-crossing detectors"",
+    ""Time delay generators"",
+    ""Free-running square-wave oscillators""
+  ]
+}"
+A2D-1029,Sensors & Modules,LM2596,-,-,https://www.ti.com/lit/ds/symlink/lm2596.pdf,"https://m.media-amazon.com/images/I/71HfxNInzjL._AC_UF1000,1000_QL80_.jpg",,"The LM2596 is a monolithic switching regulator that can be used to generate an adjustable output voltage. It features a low dropout voltage, high efficiency, and a wide input voltage range of 4.5V to 40V. This device is suitable for applications such as power supplies, battery chargers, and audio amplifiers.","{
+  ""Part Number"": ""LM2596"",
+  ""Product Type"": ""Monolithic Switching Regulator"",
+  ""Manufacturer"": ""Texas Instruments"",
+  ""Operating Voltage"": ""4.5V to 40V"",
+  ""Current Rating"": ""3A (continuous), 7.5A (peak)"",
+  ""Package Type"": ""TO-263 (DPAK) Package"",
+  ""Temperature Range"": ""-40°C to 125°C"",
+  ""Interface"": ""Fixed Frequency, Pulse Width Modulation (PWM)"",
+  ""Key Features"": [
+    ""Adjustable Output Voltage"",
+    ""Low Dropout Voltage"",
+    ""High Efficiency""
+  ],
+  ""Applications"": [
+    ""Power Supplies"",
+    ""Battery Chargers"",
+    ""Audio Amplifiers""
+  ]
+}"
+A2D-1030,Sensors & Modules,MCP 2515 CAN,-,-,https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf,https://m.media-amazon.com/images/I/61CvGeoPxfL.jpg,,"The MCP2515 is a powerful automotive bus controller that enables reliable and efficient communication over CAN (Controller Area Network) and LIN (Local Interconnect Network) protocols. With its high-speed transmission capabilities, low power consumption, and robust error detection mechanisms, this IC is ideal for applications such as in-vehicle networks, industrial automation, and medical devices. Its advanced features include 29-bit extended identifier support, remote frame transmission, and overload frame generation, making it an excellent choice for developers seeking a reliable and flexible communication solution.","{
+  ""Part Number"": ""MCP2515"",
+  ""Product Type"": ""Automotive Bus Controller"",
+  ""Manufacturer"": ""Microchip Technology Inc."",
+  ""Operating Voltage"": ""2.0V to 3.6V"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""QFN-48"",
+  ""Temperature Range"": ""-40°C to 85°C"",
+  ""Interface"": ""SPI, I2C"",
+  ""Key Features"": [
+    ""29-bit extended identifier support"",
+    ""Remote frame transmission"",
+    ""Overload frame generation""
+  ],
+  ""Applications"": [
+    ""In-Vehicle Networks"",
+    ""Industrial Automation"",
+    ""Medical Devices""
+  ]
+}"
+A2D-1031,Sensors & Modules,Fingerprint Sensor,R307 / 62,RB9 (18/16),https://www.e3s-conferences.org/articles/e3sconf/pdf/2024/37/e3sconf_icftest2024_01037.pdf,https://www.j-display.com/images/product/fpsensor/img_01_sp.webp,,"The Fingerprint-Based Biometric Smart Electronic Voting System using IoT introduces a robust approach to user authentication, leveraging the uniqueness of fingerprints to ensure high accuracy and security. This system's technical sophistication includes advanced cryptographic protocols, secure communication channels, and blockchain technology, forming a resilient foundation safeguarding the integrity of the electoral process.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""Fingerprint-Based Biometric Smart Electronic Voting System"",
+  ""Manufacturer"": ""N/A"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""N/A"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""IoT, Arduino, ESP32 Camera, Ultrasonic Sensor, GPS Module, LCD Display, Piezo Buzzer"",
+  ""Key Features"": [
+    ""Fingerprint biometrics"",
+    ""Advanced cryptographic protocols"",
+    ""Secure communication channels"",
+    ""Blockchain technology""
+  ],
+  ""Applications"": [
+    ""Electronic voting"",
+    ""Secure authentication"",
+    ""Tamper-resistant record-keeping""
+  ]
+}"
+A2D-1032,Sensors & Modules,ULN2003,-,RB14 (20),https://www.st.com/resource/en/datasheet/uln2001.pdf,"https://m.media-amazon.com/images/I/71pasrY8IzL._AC_UF1000,1000_QL80_.jpg",,"The A2D-1032 - ULN2003 is a high-voltage, high-current Darlington array featuring seven open collector Darlington pairs with common emitters. With a package type of DIP-16L SO-16, this component offers an operating voltage range of up to 50V and a current rating of 500mA per driver. Its integrated suppression diodes make it suitable for driving inductive loads such as solenoids, motors, and relay DC motors. This versatile device is useful for various applications including thermal printheads, high-power buffers, and LED display filament lamps.","{
+  ""Part Number"": ""A2D-1032"",
+  ""Product Type"": ""Darlington Array"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""up to 50V"",
+  ""Current Rating"": ""500mA per driver (600mA peak)"",
+  ""Package Type"": ""DIP-16L SO-16"",
+  ""Temperature Range"": ""-40°C to 85°C (operation), -55°C to 150°C (storage)"",
+  ""Interface"": ""TTL, CMOS, PMOS, DTL compatible inputs"",
+  ""Key Features"": [
+    ""seven open collector Darlington pairs"",
+    ""integrated suppression diodes""
+  ],
+  ""Applications"": [
+    ""solenoids"",
+    ""relay DC motors"",
+    ""thermal printheads""
+  ]
+}"
+A2D-1033,Sensors & Modules,TEC1-12715,Peltier Module,RB14,https://peltiermodules.com/peltier.datasheet/TEC1-12715.pdf,"https://m.media-amazon.com/images/I/41vb0KsvJGL._AC_UF1000,1000_QL80_.jpg",,"The TEC1-12715 module from Hebei I.T. (Shanghai) Co., Ltd is a reliable component for various applications. This module features a maximum operating temperature of 90°C, making it suitable for use in a wide range of environments. With a maximum cooling power of 136 and a temperature difference of 70°C, this module is designed to handle demanding thermal conditions. Additionally, the module can operate with an input voltage of up to 15.4V and has a current rating of 15A. Its resistance remains stable at 0.75±0.05 Ohms. This module is ideal for applications such as temperature sensing and control systems.","{
+  ""Part Number"": ""A2D-1033"",
+  ""Product Type"": ""type"",
+  ""Manufacturer"": ""Hebei I.T. (Shanghai) Co., Ltd"",
+  ""Operating Voltage"": ""15.4V"",
+  ""Current Rating"": ""15A"",
+  ""Package Type"": """",
+  ""Temperature Range"": ""90°C"",
+  ""Interface"": """",
+  ""Key Features"": [
+    ""high operating temperature"",
+    ""stable resistance""
+  ],
+  ""Applications"": [
+    ""temperature sensing and control systems""
+  ]
+}"
+A2D-1034,Sensors & Modules,MAX7219,Dot Matrix Single Module / 8x8,-4,https://www.handsontec.com/dataspecs/module/MAX7219-4-In-1.pdf,https://cdn-shop.adafruit.com/970x728/453-01.jpg,,"The MAX7219-based A2D-1034 32x8 dot matrix display module offers a versatile solution for creating scrolling message boards. With its 3-wire serial interface, this module can be easily connected to Arduino or Raspberry controllers. The module's dimensions are 128x33x15mm (LxWxH) and it requires an operating voltage of 4.5-5V. Designed for daisy-chaining, the A2D-1034 can be used to build complex display panels with ease. Its compact size and adjustable brightness make it suitable for a wide range of applications, including signage, meter displays, and more.","{
+  ""Part Number"": ""A2D-1034"",
+  ""Product Type"": ""Module"",
+  ""Manufacturer"": ""Handson Technology"",
+  ""Operating Voltage"": ""4.5 ~ 5V"",
+  ""Package Type"": ""Board"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""3-Wires Serial Interface"",
+  ""Key Features"": [
+    ""Daisy chain for multiple modules"",
+    ""Adjustable brightness""
+  ],
+  ""Applications"": [
+    ""Signage"",
+    ""Meter displays""
+  ]
+}"
+A2D-1035,Sensors & Modules,Digital Particle,585022 Module Concentration / PM2.5 Air Quality,-,Not Found,https://images.ctfassets.net/ity165ek7v1z/3pImQqVaVrEtcjypeD7eGP/4c1c60efc70e638e889ee313fb16246a/Meet_Particle_Ledger__the_digital_representation_of_your_product_cropped_.jpg?w=900&h=684&fl=progressive&q=80&fm=jpg,,,
+A2D-1036,Sensors & Modules,MQ7,Gas Sensor,-,https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-7.pdf,https://m.media-amazon.com/images/I/61YTVhc8JpL.jpg,,"The HANWEI ELECTRONICS CO., LTD MQ-7 gas sensor is a reliable component for detecting carbon monoxide (CO) in various applications. With its high sensitivity to CO, this sensor offers excellent long-term stability and a service life of up to 5 years. Key features include a voltage range of 1.4V to 5V, with adjustable load resistance RL and heating time TH. This device is suitable for use in gas detecting equipment, ideal for family and industrial settings or vehicle applications.","{
+  ""Part Number"": ""A2D-1036"",
+  ""Product Type"": ""MQ7 Gas Sensor"",
+  ""Manufacturer"": ""HANWEI ELECTRONICS CO., LTD"",
+  ""Operating Voltage"": ""5V±0.1 Ac or Dc (High), 1.4V±0.1 Ac or Dc (Low)"",
+  ""Current Rating"": ""About 350mW (Heating Consumption)"",
+  ""Package Type"": ""6 Pin"",
+  ""Temperature Range"": ""-20℃-50℃ (Using Temperature), -20℃-50℃ (Storage Temperature)"",
+  ""Interface"": ""Analog Signal Output"",
+  ""Key Features"": [
+    ""High Sensitivity to Carbon Monoxide"",
+    ""Excellent Long-Term Stability""
+  ],
+  ""Applications"": [
+    ""Gas Detecting Equipment for Carbon Monoxide Detection in Family and Industrial Settings or Vehicle Applications""
+  ]
+}"
+A2D-1037,Sensors & Modules,US-100,Ultrasonic,-,https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/4019_Web.pdf,https://dupont.scene7.com/is/image/Dupont/styrofoam-brand-highload-100-product-logo-image1,,,
+A2D-1038,Drones & RC,Mini Camera (FPV),HD Colour 700TVL,RB11,https://www.str-subsea.com/wp-content/uploads/2025/03/STR_SeaSpectrum-Miniature-Tooling-Camera-Datasheet-V2_181123_165932_2023-01-25-133021_agge.pdf,"https://m.media-amazon.com/images/I/71SgOiTmgcL._AC_UF894,1000_QL80_.jpg",,"The STR Mini Tooling Camera is a compact and lightweight underwater camera designed for small ROV and general inspection operations. With a resolution of 650/700TVL and a wide-angle lens, it captures high-quality imagery in zero-light conditions. Key features include internal LED illumination, light level compensation, dynamic video output, and automatic noise reduction and image processing. This camera is ideal for applications such as underwater construction and maintenance. Its compact design and 3000m depth rating make it perfect for a variety of tooling operations. The STR Mini Tooling Camera is also available without internal LED illumination for reduced power consumption. With its impressive specifications, this camera is an excellent choice for any underwater operation that requires high-quality visual data.","{
+  ""Part Number"": ""A2D-1038"",
+  ""Product Type"": ""type"",
+  ""Manufacturer"": ""SeaSpectrum STR"",
+  ""Operating Voltage"": ""15-32V DC"",
+  ""Current Rating"": ""100mA (Mini Tooling Camera), 130mA (Mini LED Tooling Camera)"",
+  ""Package Type"": ""camera"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""Composite Video, MCBH4M"",
+  ""Key Features"": [
+    ""Small and light weight"",
+    ""Sapphire Lens"",
+    ""650/700 TVL Resolution""
+  ],
+  ""Applications"": [
+    ""Underwater construction"",
+    ""General inspection operations""
+  ]
+}"
+A2D-1039,Drones & RC,Foxeer Razer Micro,FPV Camera,-,https://www.flyingtech.co.uk/wp-content/uploads/2024/02/Holybro_Kopis-CineWhoopAnalog_VTx_version_Manual.pdf,https://m.media-amazon.com/images/I/51qayM5ADgL.jpg,,"The Foxeer Razer Micro is a high-performance micro FPV camera designed for drone racing and aerial photography. Key features include an adjustable uptilt from 0 to 90 degrees, 1200TVL resolution, and a compact design. With its advanced flight controller, Kakute F7 V1.5, and powerful Tekko32 F3 4in1 45A mini ESC, this drone is perfect for enthusiasts and professionals alike. Whether you're capturing stunning aerial footage or competing in high-speed drone racing, the Foxeer Razer Micro has got you covered.","{
+  ""Part Number"": ""A2D-1039"",
+  ""Product Type"": ""FPV camera"",
+  ""Manufacturer"": ""Foxeer"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""45A"",
+  ""Package Type"": ""mini ESC"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""UART"",
+  ""Key Features"": [
+    ""adjustable uptilt"",
+    ""1200TVL resolution""
+  ],
+  ""Applications"": [
+    ""drone racing"",
+    ""aerial photography""
+  ]
+}"
+A2D-1040,Drones & RC,JPEG Camera,TTL,-,https://cdn-learn.adafruit.com/downloads/pdf/ttl-serial-camera.pdf,https://cdn-shop.adafruit.com/970x728/1386-04.jpg,,"Capture life's moments with the A2D-1040 TTL Serial Camera, a compact and versatile module ideal for surveillance, robotics, and automation applications. This camera boasts NTSC video output, automatic white balance, exposure, and gain, making it perfect for monitoring environments. With its high-quality CMOS sensor, 640x480 VGA resolution, and progressive scan mode, you'll get crisp and clear images even in low-light conditions. Additionally, the camera's electronic rolling shutter ensures seamless capture of fast-moving objects. Perfect for use with microcontrollers like Arduino or Raspberry Pi, this module is an excellent choice for those seeking a reliable and easy-to-integrate imaging solution.","{
+  ""Part Number"": ""A2D-1040"",
+  ""Product Type"": ""JPEG Camera (Drones & RC)"",
+  ""Manufacturer"": ""Adafruit Industries"",
+  ""Operating Voltage"": ""+5V DC"",
+  ""Current Rating"": ""75mA"",
+  ""Package Type"": ""32mm x 32mm"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""3.3V TTL (Three wire TX, RX, GND)"",
+  ""Key Features"": [
+    ""CMOS 1/4 inch image sensor"",
+    ""640x480 VGA resolution"",
+    ""Progressive scan mode""
+  ],
+  ""Applications"": [
+    ""Surveillance"",
+    ""Robotics"",
+    ""Automation""
+  ]
+}"
+A2D-1041,Drones & RC,APM 2.8,Flight Controller,-,https://images-eu.ssl-images-amazon.com/images/I/B1RQzOVDE1S.pdf,"https://m.media-amazon.com/images/I/717XqNfYb2L._AC_UF894,1000_QL80_.jpg",,"The A2D-1041 - APM 2.8 is a comprehensive drone and RC package that includes a quadcopter frame, Jumper wires, FlySky FS-i6 transmitter, receiver, propellers, motors, ESCs, and a 3500mAh Lipo battery. With its advanced components and easy assembly process, this kit is ideal for hobbyists and professionals alike. Key features include the APM 2.8 flight controller with brushless motor support and 30A ESCs with bullet and Dean connectors. Whether you're building a racing drone or a surveillance platform, this package has everything you need to get started.","{
+  ""Part Number"": ""A2D-1041"",
+  ""Product Type"": ""APM 2.8 (Drones & RC)"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""30A"",
+  ""Package Type"": ""Kit"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""AFHDS, XT60 Female Connector"",
+  ""Key Features"": [
+    ""APM 2.8 Flight Controller"",
+    ""Brushless Motor Support""
+  ],
+  ""Applications"": [
+    ""Drone Building"",
+    ""Racing Drone""
+  ]
+}"
+A2D-1042,Drones & RC,GPS M8N,-,-,https://content.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_UBX-15031086.pdf,"https://m.media-amazon.com/images/I/51Syjm96XkL._AC_UF894,1000_QL80_.jpg",,"The u-blox NEO-M8 series of modules are concurrent GNSS receivers that can receive and track multiple constellations including GPS, GLONASS, BeiDou, and Galileo. These highly accurate modules feature a dual-frequency RF front-end architecture, allowing for simultaneous reception of two frequencies from different constellations. With their ability to support multiple constellations, these modules are ideal for applications such as autonomous vehicles, precision agriculture, and industrial automation. Key features include sensitivity down to -164 dBm, time-to-first-fix (TTFF) of 26 seconds in cold start mode, and update rates up to 10 Hz.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""GNSS Module"",
+  ""Manufacturer"": ""u-blox"",
+  ""Operating Voltage"": ""2.7-3.6 V"",
+  ""Current Rating"": ""50 mA"",
+  ""Package Type"": ""QFN 24-pin"",
+  ""Temperature Range"": ""-40°C to 85°C"",
+  ""Interface"": ""UART, SPI, I2C"",
+  ""Key Features"": [
+    ""Concurrent reception of multiple constellations"",
+    ""Dual-frequency RF front-end architecture"",
+    ""Sensitivity down to -164 dBm""
+  ],
+  ""Applications"": [
+    ""Autonomous vehicles"",
+    ""Precision agriculture"",
+    ""Industrial automation""
+  ]
+}"
+A2D-1043,Drones & RC,Pix Hawk,Flight Controller,-,https://cdn.sparkfun.com/assets/d/d/9/9/3/Pixhawk4-DataSheet.pdf,https://www.beekshop.com/cdn/shop/files/hawk-black-beek-womens-boot-1.jpg?v=1754964282&width=1500,,"The Pixhawk 4 autopilot development kit is a powerful tool for controlling autonomous vehicles. With its advanced processor technology from STMicroelectronics, high-performance IMUs from Bosch and InvenSense, and real-time operating system, it delivers incredible performance, flexibility, and reliability. Key features include increased computing power with 2MB flash memory and 512KB RAM, new sensors with higher temperature stability, integrated vibration isolation, and pre-installed PX4 firmware (v1.8). Perfect for developers at corporate research labs, startups, and academics, this kit is ideal for applications such as stabilization, navigation, and control.","{
+  ""Part Number"": ""A2D-1043"",
+  ""Product Type"": ""flight controller"",
+  ""Manufacturer"": ""Holybro"",
+  ""Operating Voltage"": ""4.9~5.5V"",
+  ""Current Rating"": ""120A"",
+  ""Package Type"": """",
+  ""Temperature Range"": ""~40~85C"",
+  ""Interface"": ""USB, I2C, SPI, PWM, CANBus"",
+  ""Key Features"": [
+    ""increased computing power"",
+    ""new sensors with higher temperature stability""
+  ],
+  ""Applications"": [
+    ""stabilization"",
+    ""navigation""
+  ]
+}"
+A2D-1044,Drones & RC,Telemetry,-,-,https://www.infineon.com/dgdl/Infineon-IRPS5401M-DataSheet-v02_06-EN.pdf?fileId=5546d4625cc9456a015cd69d402139db,https://res.cloudinary.com/dohtidfqh/image/upload/v1566607079/web-guiguio/1_sjURvFZYqvDDyJzJytK3MQ.png,,"The IRPS5401 PMIC is a flexible power management unit delivering up to five output voltages for high-density ASIC, FPGA & CPU multi-rail systems. Its four high-efficiency configurable switching regulators and a source/sink linear regulator provide typical rails required such as core voltage, memory voltage, and I/O voltages. With integrated current sensing and full telemetry including voltage, current, temperature, and faults, this device is suitable for applications like data centers, servers, and high-performance computing.","{
+  ""Part Number"": ""A2D-1044"",
+  ""Product Type"": ""PMIC"",
+  ""Manufacturer"": """",
+  ""Operating Voltage"": ""1.2V to 5.5V"",
+  ""Current Rating"": ""500mA (LDO), 2A to 4A (switching)"",
+  ""Package Type"": ""7x7 QFN, 0.4mm Pitch"",
+  ""Temperature Range"": ""-40°C to 125°C"",
+  ""Interface"": ""I2C/PMBus"",
+  ""Key Features"": [
+    ""configurable switching regulators"",
+    ""source/sink linear regulator""
+  ],
+  ""Applications"": [
+    ""data centers"",
+    ""servers"",
+    ""high-performance computing""
+  ]
+}"
+A2D-1045,Drones & RC,Johnston Motor,300RPM,RB13,https://5.imimg.com/data5/UP/ZL/ZZ/SELLER-9353586/johnson-high-torque-dc-geared-motor-300rpm-with-driver-grade-a.pdf,"https://m.media-amazon.com/images/I/61LBxtjHNHL._AC_UF1000,1000_QL80_.jpg",,,
+A2D-1046,Drones & RC,Motor Speed Controller,DC 12V,RB13,https://www.ti.com/lit/gpn/DRV8840,https://m.media-amazon.com/images/I/71wvYRlRUjL.jpg,,"The A2D-1046 type product from maker offers a reliable and efficient solution for various applications. Its operating voltage range of voltage allows it to be used in a wide range of systems. The current rating of current ensures stable performance even under heavy loads. Available in package type, this component is suitable for use with interface type devices. Its key features include feature1 and feature2, making it an ideal choice for applications such as app1 and app2.","{
+  ""Part Number"": ""A2D-1046"",
+  ""Product Type"": ""type"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""voltage"",
+  ""Current Rating"": ""current"",
+  ""Package Type"": ""package"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""interface type"",
+  ""Key Features"": [
+    ""feature1"",
+    ""feature2""
+  ],
+  ""Applications"": [
+    ""app1"",
+    ""app2""
+  ]
+}"
+A2D-1047,Cooling Fans,Delta PFC1212DE (120x120x38,DC 12V,F43,https://www.mouser.com/datasheet/2/632/Delta_PWM-1003558.pdf,https://www.delta-fan.com/pub/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/p/f/pfc120x38mm_1_1.jpg,,N/A,"{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""PWM Blowers"",
+  ""Manufacturer"": ""Delta Electronics (Americas) Ltd."",
+  ""Operating Voltage"": ""36.0 - 75.0"",
+  ""Current Rating"": ""A"",
+  ""Package Type"": ""Round"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""N/A"",
+  ""Key Features"": [
+    ""Bearing Current: 2.20"",
+    ""Air Flow Rate: 735.08"",
+    ""Noise Level: 6.903""
+  ],
+  ""Applications"": [
+    ""General Purpose Cooling"",
+    ""Industrial Automation""
+  ]
+}"
+A2D-1048,Cooling Fans,3.90A / 4.80A),DC 12V,F43,https://www.tempelgroup.com/catalogos/energia/catalogo_panasonic_baterias_vrla.pdf,https://www.delta-fan.com/pub/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/q/f/qfr0912_92x25.4mm.png,,"Rechargeable sealed Lead-Acid batteries for various applications, featuring a temperature range of -15°C to 50°C. Ideal for use in inverters, backup power systems, and renewable energy systems. Key features include cut-off voltage regulation, constant charging, and inverse polarity protection. These batteries are designed for reliable performance and long lifespan.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""Rechargeable sealed Lead-Acid battery"",
+  ""Manufacturer"": ""Panasonic"",
+  ""Operating Voltage"": ""6V/12V"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""N/A"",
+  ""Temperature Range"": ""-15°C to 50°C"",
+  ""Interface"": ""N/A"",
+  ""Key Features"": [
+    ""Cut-off voltage regulation"",
+    ""Constant charging""
+  ],
+  ""Applications"": [
+    ""Inverters"",
+    ""Backup power systems"",
+    ""Renewable energy systems""
+  ]
+}"
+A2D-1049,Cooling Fans,ADDA AD1224UB-A72GL (DC Brushless),DC 12V,F43,http://www.addausa.com/specifications/92-120.pdf,https://m.media-amazon.com/images/I/51gYa4JRrVL.jpg,,"This datasheet details a series of electronics components designed for various applications. The A2D-1049 product line offers high-performance operation within a voltage range of and package type, suitable for use in temperature ranges from to. Key features include feature1 and feature2, making it an ideal component for app1 and app2.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""type"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""voltage"",
+  ""Current Rating"": ""current"",
+  ""Package Type"": ""package"",
+  ""Temperature Range"": ""temp range"",
+  ""Interface"": ""interface type"",
+  ""Key Features"": [
+    ""feature1"",
+    ""feature2""
+  ],
+  ""Applications"": [
+    ""app1"",
+    ""app2""
+  ]
+}"
+A2D-1050,Cooling Fans,Nidec (2.75A / 3.3A),DC 12V,F43,https://igbt.by/wp-content/uploads/2025/06/Catalogue_2025_datasheet_ventiljatory_fans_Minsk_Belarus.pdf,https://s.alicdn.com/@sc04/kf/Hb995d4043e584a48b7b2e41e09bf5911K/NIDEC-VA450DC-V34809-90-DC12V-3.3A-120-120-38MM-12CM-4500RPM-Original-Brand-new-4-pin-PWM-Large-air-Volume-Cooling-Fan.jpg_300x300.jpg,,"This datasheet describes various types of fans from Adda company. They offer different models with various operating voltages, current ratings, and temperature ranges. The fans can be used in various applications such as cooling systems, ventilation systems, and more. Some key features include the package type, interface type, and key technical specifications like operating voltage, current rating, and temperature range.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""Fan"",
+  ""Manufacturer"": ""Adda"",
+  ""Operating Voltage"": [
+    {
+      ""5V"": [
+        ""ad0605hb-g90"",
+        ""ad0612dx-a70gl""
+      ]
+    },
+    {
+      ""12V"": [
+        ""ad0812hx-a70gl"",
+        ""ad0824hs-c70""
+      ]
+    },
+    {
+      ""24V"": [
+        ""ad0524hb-d71"",
+        ""ad0624hb-a70gl""
+      ]
+    }
+  ],
+  ""Current Rating"": [
+    {
+      ""5A"": [
+        ""ad0605lb-g70"",
+        ""ad0612lb-a70gl""
+      ]
+    },
+    {
+      ""12A"": [
+        ""ad0812mb-a70gl"",
+        ""ad0824mb-a70gl""
+      ]
+    },
+    {
+      ""24A"": [
+        ""ad0524lx-a70gl"",
+        ""ad0624lx-a70gl""
+      ]
+    }
+  ],
+  ""Package Type"": [
+    {
+      ""DIP"": [
+        ""ad0605hb-g90"",
+        ""ad0612dx-a70gl""
+      ]
+    },
+    {
+      ""SIP"": [
+        ""ad0812hx-a70gl"",
+        ""ad0824hs-c70""
+      ]
+    },
+    {
+      ""N/A"": [
+        ""ad0524hb-d71"",
+        ""ad0624hb-a70gl""
+      ]
+    }
+  ],
+  ""Temperature Range"": [
+    {
+      ""-20°C to 80°C"": [
+        ""ad0605lb-g70"",
+        ""ad0612lb-a70gl""
+      ]
+    },
+    {
+      ""0°C to 50°C"": [
+        ""ad0812mb-a70gl"",
+        ""ad0824mb-a70gl""
+      ]
+    },
+    {
+      ""N/A"": [
+        ""ad0524hb-d71"",
+        ""ad0624hb-a70gl""
+      ]
+    }
+  ],
+  ""Interface"": [
+    {
+      ""3-pin"": [
+        ""ad0612dx-a70gl"",
+        ""ad0824hs-c70""
+      ]
+    },
+    {
+      ""5V"": [
+        ""ad0605lb-g70"",
+        ""ad0612lb-a70gl""
+      ]
+    },
+    {
+      ""N/A"": [
+        ""ad0524hb-d71"",
+        ""ad0624hb-a70gl""
+      ]
+    }
+  ],
+  ""Key Features"": [
+    [
+      ""High-efficiency fan for cooling systems."",
+      ""Low noise and high air flow.""
+    ],
+    [
+      ""Wide operating temperature range."",
+      ""Compact design for easy installation.""
+    ]
+  ],
+  ""Applications"": [
+    [
+      ""Cooling systems for servers, data centers, and PCs.""
+    ],
+    [
+      ""Ventilation systems for industrial, commercial, and residential applications.""
+    ]
+  ]
+}"
+A2D-1051,Cooling Fans,Delta DC12V 2.75A / 3.3A,DC 12V,F45,https://rondonia.ro.gov.br/wp-content/uploads/2022/08/C.-COM-SEI.pdf,https://www.delta-fan.com/pub/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/p/f/pfb0812-80x38px.jpg,,,
+A2D-1052,Cooling Fans,035633-34,DC 12V,F45,Not Found,Not Found,,,
+A2D-1053,Cooling Fans,AFC 1512DG (DC 12V 1.8A),DC 12V,F46,Not Found,https://00.img.avito.st/image/1/1.kLPPFraAPFq5uP5V40Tc-rm3Pl59oThafcZdXn11M5h0tThAubj-VXk.1Wu5Z-jj1oi-EAOPDJeck90ilz4uBR2rgS5CZkKRbp4?cqp=2.31EmCLg6ik3oatt1ttbFq_ajuGsz9wCshVqsaNgtLVVqtiwIcdxsWidTBGP4W2gjZpwuVqcdzwQCR5DnUbaoBbU1,,,
+A2D-1054,Cooling Fans,Delta (1.60A / 1.80A),DC 12V,F46,https://www.newark.com/pdfs/31-60febcurrent.pdf,https://www.delta-fan.com/pub/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/g/f/gfc0812.jpg,,N/A,{}
+A2D-1055,Cooling Fans,ADDA AD1224UB-A72GL (0.25A),DC 24V,F43,https://igbt.by/wp-content/uploads/2025/06/Catalogue_2025_datasheet_ventiljatory_fans_Minsk_Belarus.pdf,https://m.media-amazon.com/images/I/51gYa4JRrVL.jpg,,"The ADDA series of fans are designed for high-performance cooling applications. With a wide range of operating voltages and currents, these fans can be used in various electronic devices. Their compact package type makes them suitable for miniaturized designs. The ADDA fans also offer excellent temperature range performance and interface options. They are ideal for use in computer casings, industrial equipment, and other applications where reliable cooling is essential.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""Fan"",
+  ""Manufacturer"": ""ADDA"",
+  ""Operating Voltage"": ""5v, 12v, 24v"",
+  ""Current Rating"": ""0.08a - 3.6a"",
+  ""Package Type"": ""Compact"",
+  ""Temperature Range"": ""-20 to 80°C"",
+  ""Interface"": ""N/A"",
+  ""Key Features"": [
+    ""High-performance cooling"",
+    ""Wide operating voltage range""
+  ],
+  ""Applications"": [
+    ""Computer casings"",
+    ""Industrial equipment""
+  ]
+}"
+A2D-1056,Cooling Fans,CND DC24B7RS (0.2A),DC 24V,F43,Not Found,Not Found,,,
+A2D-1057,Cooling Fans,Delta (0.30A),DC 24V,F43,https://deltapsu.com/jp/products/download/Datasheet/DRC-24V10W1AZ,"https://m.media-amazon.com/images/I/515UVrL+DDL._AC_UF1000,1000_QL80_.jpg",,"The A2D-1057 type product from maker offers reliable performance with an operating voltage of voltage and current rating of current. It's available in package type, suitable for applications within temperature range. The interface type enables seamless integration with various systems. Key features include feature1 and feature2, making it ideal for app1 and app2 applications.","{
+  ""Part Number"": ""A2D-1057"",
+  ""Product Type"": ""type"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""voltage"",
+  ""Current Rating"": ""current"",
+  ""Package Type"": ""package"",
+  ""Temperature Range"": ""temp range"",
+  ""Interface"": ""interface type"",
+  ""Key Features"": [
+    ""feature1"",
+    ""feature2""
+  ],
+  ""Applications"": [
+    ""app1"",
+    ""app2""
+  ]
+}"
+A2D-1058,Cooling Fans,Servo (0.2A 4.8W),DC 24V,F43,https://mdlsoln.com/wp-content/uploads/catalogues/VKN_Brochure_Final_2022.pdf,https://i.ebayimg.com/00/s/MTYwMFgxNTgx/z/3QkAAOSwV5RmseNR/$_57.JPG,,"The A2D-1058 Servo (0.2A 4.8W) from MDL Solutions features a highly efficient heat exchanger, allowing for faster and more even heating. This fan-assisted trench heater offers adjustable tray position and leveling, making it easy to install in various settings. With its modern EC fan motor and silent operation, this product is ideal for residential homes, offices, retail centers, hotels, sports complexes, swimming pools, and more. Its lightweight design and low water capacity make it a great choice for applications where space is limited.","{
+  ""Part Number"": ""A2D-1058"",
+  ""Product Type"": ""Servo"",
+  ""Manufacturer"": ""MDL Solutions"",
+  ""Operating Voltage"": ""24 V DC"",
+  ""Current Rating"": ""0.2 A"",
+  ""Package Type"": ""N/A"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""EC motor"",
+  ""Key Features"": [
+    ""Highly efficient heat exchanger"",
+    ""Adjustable tray position and leveling""
+  ],
+  ""Applications"": [
+    ""Residential homes"",
+    ""Offices""
+  ]
+}"
+A2D-1059,Cooling Fans,"All Mix (4"")",DC 12V,F48,https://www.allen-heath.com/content/uploads/2024/06/CQ-18T-Tech-Datasheet_Iss3.pdf,https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F11MhXLStsL3lNaJDizUyN6%2F13c507b4ff011beb673b3d4ce88de92a%2F4-components-of-product-mix.png&w=2048&q=85,,"The Allen & Heath CQ-18T All Mix digital audio mixer is a powerful tool for musicians and sound engineers. With its compact design, it can be used in a variety of applications, from live performances to studio recordings. Key features include 19x inputs to mix, USB-B connectivity for multichannel audio recording and playback, and a built-in SD card slot for multitrack recording. The CQ-18T also has a range of processing options, including automatic mic mixer, graphic EQ, and compressors. With its robust construction and durable components, this mixer is designed to withstand the demands of live performances and professional use.","{
+  ""Part Number"": ""A2D-1059"",
+  ""Product Type"": ""Digital Audio Mixer"",
+  ""Manufacturer"": ""Allen & Heath"",
+  ""Operating Voltage"": ""12V DC"",
+  ""Current Rating"": ""5A"",
+  ""Package Type"": ""Rack Mountable (Optional Kit)"",
+  ""Temperature Range"": ""0° C to 40° C (32° F to 104° F)"",
+  ""Interface"": ""USB-B, Wi-Fi Access Point, Bluetooth 4.1"",
+  ""Key Features"": [
+    ""19x Inputs to Mix"",
+    ""USB-B Connectivity for Multichannel Audio Recording and Playback""
+  ],
+  ""Applications"": [
+    ""Live Performances"",
+    ""Studio Recordings""
+  ]
+}"
+A2D-1060,Cooling Fans,San Ace (DC 12V),DC 12V,F48,https://www.farnell.com/datasheets/2003018.pdf,https://products.sanyodenki.com/media/product%20images/sanace/9HV3612P3K001.png,,N/A,"{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""Blower"",
+  ""Manufacturer"": ""San Ace"",
+  ""Operating Voltage"": [
+    {
+      ""voltage"": ""24V DC"",
+      ""range"": [
+        ""26.4V"",
+        ""24V"",
+        ""21.6V""
+      ]
+    },
+    {
+      ""voltage"": ""24V DC"",
+      ""range"": [
+        ""26.4V"",
+        ""24V""
+      ]
+    }
+  ],
+  ""Current Rating"": [
+    {
+      ""current"": ""N/A"",
+      ""rating"": [
+        1,
+        2
+      ]
+    },
+    {
+      ""current"": ""N/A"",
+      ""rating"": [
+        3
+      ]
+    }
+  ],
+  ""Package Type"": ""97 mm"",
+  ""Temperature Range"": ""temp range not specified"",
+  ""Interface"": ""N/A"",
+  ""Key Features"": [
+    [
+      ""Airflow - Static Pressure Characteristics""
+    ],
+    [
+      ""PWM Duty Cycle""
+    ]
+  ],
+  ""Applications"": [
+    [
+      ""Airflow""
+    ],
+    [
+      ""Airflow""
+    ],
+    [
+      ""Airflow""
+    ],
+    [
+      ""Airflow""
+    ]
+  ]
+}"
+A2D-1061,Cooling Fans,Sunon (DC 12V 2.1A),DC 12V,F48,https://arcarc.xmission.com/Tech/Jameco%20Catalog%20V232%20(May%202003).pdf,https://i.ebayimg.com/images/g/P20AAOSwgNZnJIOe/s-l1200.jpg,,"The Jameco Electronics Datasheet provides specifications for a range of electronics products, including power supplies and switching power supplies. The datasheet highlights key features such as the output voltage, current rating, and package type. Applications include power supply systems, industrial control systems, and automotive systems.","{
+  ""Part Number"": ""A2D-1061"",
+  ""Product Type"": ""Electronics Technical Expertise"",
+  ""Manufacturer"": ""Jameco Electronics"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""Datasheet"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""Technical Support"",
+  ""Key Features"": [
+    ""Simplified Legend"",
+    ""Quantity Discounts""
+  ],
+  ""Applications"": [
+    ""Power Supply Systems"",
+    ""Industrial Control Systems""
+  ]
+}"
+A2D-1062,Cooling Fans,Delta Thin/Mix (120x120x20,DC 12V,F44,https://mideacaucasus.com/storage/W6YxoxLvp19z3z9XlHoFhZOR9AGac6-metaUERfTWlkZWFfVjZfVlJGXzUwXzYwSHpfMjAyMTA2MTFfVjE5LnBkZg==-.pdf,https://s.alicdn.com/@sc04/kf/H9683d07d758741bcb88f64faacb053e8w/120x120x25-Supplier-Waterproof-Fans-12025-24v-Brushless-Dc-Cooling-Fan-120mm-12v.jpg_300x300.jpg,,"The Midea A2D-1062 Delta Thin/Mix (120x120x20) Cooling Fans offer a comprehensive HVAC solution for various applications. With features like heat recovery ventilation, air handling units, and remote controllers, this system provides efficient and reliable cooling operations. Suitable for office complexes, residential apartments, hotels, shopping malls, and other commercial spaces, the A2D-1062 ensures comfortable indoor environments while minimizing energy consumption. This product is ideal for applications that require high-efficiency operation, reliable maintenance, and smart control solutions.","{
+  ""Part Number"": ""A2D-1062"",
+  ""Product Type"": ""Delta Thin/Mix Cooling Fans"",
+  ""Manufacturer"": ""Midea Group"",
+  ""Operating Voltage"": ""1V202106 (50/60Hz)"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""120x120x20"",
+  ""Temperature Range"": ""Cooling only VRF and heat recovery ventilation"",
+  ""Interface"": ""Various indoor units (e.g., air cooled heat pump, air cooled cooling only, water cooled)"",
+  ""Key Features"": [
+    ""Heat Recovery Ventilation"",
+    ""Air Handling Units"",
+    ""Remote Controllers""
+  ],
+  ""Applications"": [
+    ""Office Complexes"",
+    ""Residential Apartments"",
+    ""Hotels"",
+    ""Shopping Malls""
+  ]
+}"
+A2D-1063,Cooling Fans,0.20A),DC 12V,F44,https://us.idec.com/idec-us/en/USD/medias/PS5RV-Datasheet.pdf?context=bWFzdGVyfGRvY3VtZW50c3wxNDU4MTQzfGFwcGxpY2F0aW9uL3BkZnxkb2N1bWVudHMvaGM4L2gzNC84OTMyMjk2NTU2NTc0LnBkZnxhNmYzZjZhMDJhMmY3NzZkNzUwZDlkMzBlN2NjNzdjYTJmODAzMTNhOWQzYTRjMzVhNzYxMWRiY2FmMDdhZWJh,"https://m.media-amazon.com/images/I/51EcX4W8TZL._AC_UF1000,1000_QL80_.jpg",,"The PS5R-V series switching power supplies offer high-performance and reliability for a wide range of applications. With its compact package, low noise operation, and adjustable output voltage, this device is ideal for use in industrial control systems, automation equipment, and other harsh environments. Key features include a temperature range of -40°C to 85°C, a current rating of up to 10A, and an operating voltage range of 100-240V AC.","{
+  ""Part Number"": ""PS5R-V"",
+  ""Product Type"": ""Switching Power Supply"",
+  ""Manufacturer"": ""IDEC"",
+  ""Operating Voltage"": ""100-240V AC"",
+  ""Current Rating"": ""Up to 10A"",
+  ""Package Type"": ""DIN Rail Mountable"",
+  ""Temperature Range"": ""-40°C to 85°C"",
+  ""Interface"": ""AC Input, DC Output"",
+  ""Key Features"": [
+    ""Adjustable Output Voltage"",
+    ""Low Noise Operation"",
+    ""Compact Package""
+  ],
+  ""Applications"": [
+    ""Industrial Control Systems"",
+    ""Automation Equipment""
+  ]
+}"
+A2D-1064,Cooling Fans,EFS DC 12V 0.83A,DC 12V,F44,https://search.abb.com/library/Download.aspx?DocumentID=9AKK108467A5848&LanguageCode=en&DocumentPartId&Action=Launch,https://img.lazcdn.com/g/p/d62c0cc3009eaa7a9cb2e51aee95bb18.jpg_720x720q80.jpg,,,
+A2D-1065,Cooling Fans,EAA 1524SHG (DC 24V 2.1A),DC 12V,F44,Not Found,Not Found,,,
+A2D-1066,Cooling Fans,San Ace 172 (12V 2.3A),DC 12V,F44,https://kentec.co.uk/wp-content/uploads/2018/08/man-1200.pdf,https://s.alicdn.com/@sc04/kf/H2923f8c5821d4a69858e50b384e508a6l.jpg,,,
+A2D-1067,Cooling Fans,Servo D1278E48 (DC 48V 0.56A),DC 48V,F39,Not Found,Not Found,,,
+A2D-1068,Cooling Fans,Delta (DC 48V 0.20A / 2.52A),DC 48V,F39,https://tiristor.by/wp-content/uploads/ventilyator_Minsk_datasheet_catalogue_2020_last.pdf,https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10161490309175988,,"Discover a wide range of high-performance fans from leading manufacturers. With operating voltages ranging from 12V to 48V and current ratings up to 3A, these devices are suitable for various applications including cooling systems, ventilation solutions, and more. Key features include compact package types, temperature ranges up to 70°C, and interfaces such as DC, USB, and others. Whether you're looking for a reliable fan for your computer or a high-volume solution for industrial use, this product page has got you covered.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""Fan"",
+  ""Manufacturer"": [
+    ""Unitedpro"",
+    ""Toshiba"",
+    ""Yate Loon"",
+    ""Xc-share"",
+    ""Suntta"",
+    ""Zalman"",
+    ""Supermicro"",
+    ""Sunon"",
+    ""Weiguang"",
+    ""Yuyuan"",
+    ""Y.S. Tech"",
+    ""Toyon""
+  ],
+  ""Operating Voltage"": [
+    ""12V"",
+    ""24V"",
+    ""48V"",
+    ""115V"",
+    ""230V"",
+    ""380V""
+  ],
+  ""Current Rating"": [
+    ""0.08A"",
+    ""0.10A"",
+    ""0.11A"",
+    ""0.12A"",
+    ""0.20A"",
+    ""0.21A"",
+    ""0.22A"",
+    ""0.26A"",
+    ""0.35A"",
+    ""0.38A"",
+    ""1.14A"",
+    ""1.44A"",
+    ""2.64W"",
+    ""3.36W"",
+    ""4.9W"",
+    ""5.02W"",
+    ""6.08W"",
+    ""8.4W"",
+    ""10.08W"",
+    ""13.68W"",
+    ""15.7W"",
+    ""16.2A"",
+    ""20W"",
+    ""22W"",
+    ""200W"",
+    ""140W"",
+    ""157W""
+  ],
+  ""Package Type"": [
+    ""40x28mm"",
+    ""50x10mm"",
+    ""60x20mm"",
+    ""80x15mm"",
+    ""92x25mm"",
+    ""120x38mm"",
+    ""171x150x51mm"",
+    ""214x196x100mm""
+  ],
+  ""Temperature Range"": [
+    ""0-70°C"",
+    ""-40°C to 125°C"",
+    ""20-80°C"",
+    ""-10°C to 50°C""
+  ],
+  ""Interface"": [
+    ""DC"",
+    ""USB"",
+    ""12V"",
+    ""24V"",
+    ""48V"",
+    ""115V"",
+    ""230V"",
+    ""380V""
+  ],
+  ""Key Features"": [],
+  ""Applications"": [
+    ""Cooling Systems"",
+    ""Ventilation Solutions"",
+    ""Industrial Use"",
+    ""Computer Cooling"",
+    ""Server Cooling"",
+    ""Data Center Cooling"",
+    ""Industrial Automation"",
+    ""Robotics"",
+    ""Automotive"",
+    ""Aerospace""
+  ]
+}"
+A2D-1069,Cooling Fans,NMB FFC 1348CE (1.08A),DC 48V,F39,Not Found,Not Found,,,
+A2D-1070,Cooling Fans,4715KL-07W (0.87A),DC 48V,F39,https://tiristor.by/wp-content/uploads/ventiljator_220_115_230_VAC_12_24_48_5_VDC_datasheet_Minsk_tel_80447584780_catalog-.pdf,https://i.ebayimg.com/images/g/2j8AAOSwfP9nJ5Pe/s-l1200.png,,"This high-performance fan offers exceptional airflow and quiet operation. With its compact design and versatile interface options, it's ideal for use in various applications such as industrial automation, HVAC systems, and 3D printing equipment. Key features include a wide operating voltage range of 12-24V, high current rating of up to 0.20A, and a durable package type.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""ventilator"",
+  ""Manufacturer"": ""N/A"",
+  ""Operating Voltage"": ""12-24V"",
+  ""Current Rating"": ""up to 0.20A"",
+  ""Package Type"": ""compact design"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""various interface options"",
+  ""Key Features"": [
+    ""exceptional airflow"",
+    ""quiet operation""
+  ],
+  ""Applications"": [
+    ""industrial automation"",
+    ""HVAC systems"",
+    ""3D printing equipment""
+  ]
+}"
+A2D-1071,Cooling Fans,Nidec Ultra F T12E54 (1.77A),DC 48V,F39,Not Found,Not Found,,,
+A2D-1072,Cooling Fans,"Jigo (6"" AC 220V)",AC 220V,F34,https://www.fairpowerage.com/upload_file/catelogue_pdf/121_small_Jigo_Catalogue_www.fairpowerage.com.pdf,https://cdn11.bigcommerce.com/s-o0ql33eyfo/images/stencil/1280x1280/products/156366/1300147/jigo_iec947-5-1_en60947-5-1_led_panel_light_ac_220v_20_ma-155274_1___27181.1746616232.jpg?c=1,,"The A2D-1072 is a type of product designed for various applications. It features a voltage range of and a current rating of. This product is available in package type, suitable for use in temperatures ranging from to. Its interface type makes it compatible with devices that require an output of. With its key features including and, the A2D-1072 is ideal for use in applications such as and.","{
+  ""Part Number"": ""A2D-1072"",
+  ""Product Type"": ""CABLE TIE SERIES"",
+  ""Manufacturer"": ""JIGO"",
+  ""Operating Voltage"": """",
+  ""Current Rating"": """",
+  ""Package Type"": ""NYLON/PLASTIC CABLE GLANDS (PG THREAD)"",
+  ""Temperature Range"": ""-40°C to 100°C in static state, instantaneous heat resistance up to 120°C ; -20°C to 80°C in dynamic state, instantaneous heat resistance up to 100°C"",
+  ""Interface"": """",
+  ""Key Features"": [
+    ""Special design of clamping die and rubber part"",
+    ""Large range in clamping cable""
+  ],
+  ""Applications"": [
+    ""Attaching and securing the end of a cable to equipment"",
+    ""Connecting by a means suitable for the type and description of cable""
+  ]
+}"
+A2D-1073,Cooling Fans,Rexnord REC-22060 (0.40A),AC 220V,F34,https://www.rexnordindia.com/Catalogue.pdf,"https://m.media-amazon.com/images/I/61NltGZISDL._AC_UF1000,1000_QL80_.jpg",,,
+A2D-1074,Cooling Fans,Nidec S.J.A,AC 220V,F34,https://www.wnewbury.org/sites/g/files/vyhlif1436/f/uploads/02_06_2025_supplemental_os_packet_-_phase_1_final_30_percent_pdr_2024-12-06.pdf,https://www.sheffield-pottery.com/cdn/shop/files/white-SJA-2.jpg?v=1697052918,,"Discover the A2D-1074 cooling fan from Nidec S.J.A., designed for reliable operation in demanding environments. This product features a compact package, wide operating voltage range, and high current rating. With its robust design, it's perfect for use in water treatment plants, industrial processes, and other applications where temperature control is crucial. Its interface type allows for easy integration into existing systems. Whether you're looking to upgrade your cooling system or need a reliable fan for a new project, the A2D-1074 has got you covered.","{
+  ""Part Number"": ""A2D-1074"",
+  ""Product Type"": ""Cooling Fan"",
+  ""Manufacturer"": ""Nidec S.J.A."",
+  ""Operating Voltage"": """",
+  ""Current Rating"": """",
+  ""Package Type"": """",
+  ""Temperature Range"": """",
+  ""Interface"": """"
+}"
+A2D-1075,Cooling Fans,"Jigo (6"")",AC 220V,F30,https://www.fairpowerage.com/upload_file/catelogue_pdf/121_small_Jigo_Catalogue_www.fairpowerage.com.pdf,https://5.imimg.com/data5/SELLER/Default/2024/8/447164689/WN/NV/MA/94123434/digital-timer-500x500.jpeg,,"The A2D-1075 cable tie series from maker offers a reliable and efficient way to secure cables in various applications. With its self-locking mechanism, this product provides excellent tensile strength, temperature resistance up to 500°C, and high resistance to corrosion, acid, alkali, alcohol, grease, and general solvents. Its nylon or plastic construction makes it suitable for use with a wide range of cable types. This versatile cable tie series is ideal for applications in industries such as electronics, automotive, and telecommunications.","{
+  ""Part Number"": ""A2D-1075"",
+  ""Product Type"": ""cable tie"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""nylon or plastic"",
+  ""Temperature Range"": ""-80°C to 500°C"",
+  ""Interface"": ""N/A"",
+  ""Key Features"": [
+    ""self-locking mechanism"",
+    ""high tensile strength""
+  ],
+  ""Applications"": [
+    ""electronics"",
+    ""automotive"",
+    ""telecommunications""
+  ]
+}"
+A2D-1076,Cooling Fans,Rexnord REC 27245A200,AC 220V,F30,Not Found,Not Found,,,
+A2D-1077,Cooling Fans,Comair Rotron (AC 115V Square),AC 220V,F30,https://www.comairrotron.com/ComairRotron-2024.pdf,https://integrityelectricdirect.com/wp-content/uploads/2017/01/IMG_0186-scaled.jpg,,"Comair Rotron's type fan offers a range of specifications suitable for various applications. Key features include feature1 and feature2, making it ideal for use in app1 and app2. With an operating voltage of and current rating of , this package type fan operates within a temperature range of . Its interface type makes it compatible with systems requiring.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""type"",
+  ""Manufacturer"": ""Comair Rotron"",
+  ""Operating Voltage"": ""voltage"",
+  ""Current Rating"": ""current"",
+  ""Package Type"": ""package"",
+  ""Temperature Range"": ""temp range"",
+  ""Interface"": ""interface type"",
+  ""Key Features"": [
+    ""speed constant"",
+    ""apparent change in loudness""
+  ],
+  ""Applications"": [
+    ""Preferred Speech"",
+    ""Computer and Business Equipment""
+  ]
+}"
+A2D-1078,Cooling Fans,"San Ace 172 (4""",DC 24V / 48V,F31,https://docs.rs-online.com/8bf9/0900766b814d9e58.pdf,https://products.sanyodenki.com/media/product%20images/sanace/109E4712L401.png,,"The San Ace 172 9SG type High Static Pressure Fan offers effective cooling for servers, data storage systems, and ICT devices with its greatly increased static pressure. This fan features a high static pressure of 1.6 times that of our conventional DC fan, making it ideal for applications where high airflow is required. With a voltage range of 16 to 30V, current rating of 5A, and package type of φ172 x 150 x 51 mm, this fan provides reliable operation in various environments. The San Ace 172 9SG type High Static Pressure Fan is suitable for use in data centers, server rooms, and other areas where high-density computing equipment requires efficient cooling.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""High Static Pressure Fan"",
+  ""Manufacturer"": ""Sanyo Denki"",
+  ""Operating Voltage"": ""16 to 30V"",
+  ""Current Rating"": ""5A"",
+  ""Package Type"": ""φ172 x 150 x 51 mm"",
+  ""Temperature Range"": ""-20 to +70°C (Non-condensing)"",
+  ""Interface"": ""N/A"",
+  ""Key Features"": [
+    ""High static pressure"",
+    ""Effective cooling for servers and data storage systems""
+  ],
+  ""Applications"": [
+    ""Servers"",
+    ""Data storage systems""
+  ]
+}"
+A2D-1079,Cooling Fans,DC 24V 2.3A),DC 24V / 48V,F31,https://www.meanwell.com/Upload/PDF/FUL_EN_s.pdf,https://m.media-amazon.com/images/I/61paNNgl2gL.jpg,,,
+A2D-1080,Cooling Fans,109E5712V5,DC 24V / 48V,F31,https://www.indiamart.com/proddetail/ebmpapst-614-nghh-cooling-fans-23714471912.html,https://5.imimg.com/data5/SELLER/Default/2024/2/389259569/AR/YZ/QX/114051455/san-ace-172-model-109e5712v5y03-fan-500x500.jpeg,,"The EBMPAPST A2D-1080 - 109E5712V5 is a reliable and efficient 4-inch DC cooling fan suitable for various applications such as CNC machines and drives. With its axial/presentation fan type, it provides a speed of 2500 rpm and draws only 3.6W of power from the 24V DC supply. Its compact size makes it an ideal choice for space-constrained environments. Key technical features include its black plastic construction, 5-blade design, and current rating of 150mA. This fan is perfect for applications that require a quiet operation and minimal vibration. With its high-performance capabilities, the EBMPAPST A2D-1080 - 109E5712V5 is an excellent choice for those seeking reliable cooling solutions.","{
+  ""Part Number"": ""A2D-1080"",
+  ""Product Type"": ""AXIAL / PANEL FAN"",
+  ""Manufacturer"": ""EBMPAPST"",
+  ""Operating Voltage"": ""24V DC"",
+  ""Current Rating"": ""150mA"",
+  ""Package Type"": ""N/A"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""Electric"",
+  ""Key Features"": [
+    ""Speed: 2500 rpm"",
+    ""Power: 3.6W""
+  ],
+  ""Applications"": [
+    ""CNC MACHINE / DRIVES""
+  ]
+}"
+A2D-1081,Cooling Fans,EFR 1548UHG (DC 48V 0.83A),DC 24V / 48V,F31,Not Found,Not Found,,,
+A2D-1082,Cooling Fans,Papst 6424/137,DC 24V / 48V,F31,Not Found,Not Found,,,
+A2D-1083,Cooling Fans,EBM Papst (27V DC,DC Mix,F33,https://www.ebmpapst.com/content/dam/ebm-papst/media/catalogs/products/Catalog_Compactfans_US_en.pdf,https://www.galco.com/media/catalog/product/cache/fc23bd13b6bae631aaff5bf5aa384235/8/2/8218jn-ebm-papst-inc.jpg,,"Discover the A2D-1083 compact fan from ebm-papst, a leading manufacturer of high-efficiency fans. This DC-powered fan features a cooling package type and operates within a voltage range. With its compact design, it's perfect for various applications, including IoT networking and digital networks. Key technical features include EC motor technology, low noise levels, and excellent aerodynamics. Additionally, the fan's temperature range ensures reliable operation in diverse conditions.","{
+  ""Part Number"": ""A2D-1083"",
+  ""Product Type"": ""Compact Fan"",
+  ""Manufacturer"": ""ebm-papst"",
+  ""Operating Voltage"": ""27V DC"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""Cooling"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""EC Motor Technology"",
+  ""Key Features"": [
+    ""Low Noise Levels"",
+    ""Excellent Aerodynamics""
+  ],
+  ""Applications"": [
+    ""IoT Networking"",
+    ""Digital Networks""
+  ]
+}"
+A2D-1084,Cooling Fans,48V 30W),DC Mix,F33,https://www.ti.com/lit/gpn/PTB48560B,"https://m.media-amazon.com/images/I/51W+eKGC74L._AC_UF894,1000_QL80_.jpg",,"Write a 120-150 word SEO-optimized product description for an e-commerce product page. This datasheet outlines the technical specifications of the A2D-1084, a type produced by maker with an operating voltage range and current rating. The package type is designed to provide optimal thermal performance within the temperature range. With its interface type, this product enables efficient data transfer in various applications such as app1 and app2. Key features include feature1 and feature2, making it suitable for use in a wide range of industries.","{
+  ""Part Number"": ""A2D-1084"",
+  ""Product Type"": ""type"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""voltage"",
+  ""Current Rating"": ""current"",
+  ""Package Type"": ""package"",
+  ""Temperature Range"": ""temp range"",
+  ""Interface"": ""interface type"",
+  ""Key Features"": [
+    ""feature1"",
+    ""feature2""
+  ],
+  ""Applications"": [
+    ""app1"",
+    ""app2""
+  ]
+}"
+A2D-1085,Cooling Fans,San Ace (1.4A),DC Mix,F33,https://publish.sanyodenki.com/library/books/product_information_E/book/data/product_information_E.pdf,https://i.ebayimg.com/images/g/sZ0AAOSwU8Rm8TxE/s-l1200.jpg,,"Discover the San Ace A2D-1085, a high-performance cooling fan designed for reliable heat control in various applications. With its high-reliability and high-performance design, this fan is perfect for IT infrastructure, medical inspection equipment, and industrial machinery. Its features include high-quality production and manufacturing, as well as various proposals to satisfy customers' needs. This fan is suitable for use in servers, base stations, factories, hospitals, and more.","{
+  ""Part Number"": ""A2D-1085"",
+  ""Product Type"": ""Cooling Fan"",
+  ""Manufacturer"": ""SANYO DENKI"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""1.4A"",
+  ""Package Type"": ""N/A"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""DC"",
+  ""Key Features"": [
+    ""High-reliability and high-performance design"",
+    ""High-quality production and manufacturing""
+  ],
+  ""Applications"": [
+    ""IT infrastructure"",
+    ""Medical inspection equipment"",
+    ""Industrial machinery""
+  ]
+}"
+A2D-1086,Cooling Fans,"Delta (4"" 3.3A)",DC 48V,F16,https://deltapsu.com/en/products/download/Datasheet/PMR-48V150W1AT,https://i.ebayimg.com/images/g/8ZAAAOSw8rFnPZuR/s-l1200.jpg,,"This e-commerce product page details the A2D-1086, a type of electronic component with an operating voltage range and current rating. It features package and temperature ranges, allowing for versatile interface options. Key applications include app1 and app2.","{
+  ""Part Number"": ""\""A2D-1086\"""",
+  ""Product Type"": ""\""type\"""",
+  ""Manufacturer"": ""\""maker\"""",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""N/A"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""N/A"",
+  ""Key Features"": [
+    ""N/A"",
+    ""N/A""
+  ],
+  ""Applications"": [
+    ""app1"",
+    ""app2""
+  ]
+}"
+A2D-1087,Cooling Fans,"Papst (4"")",DC Mix,F17/F18,https://ebmpapst.dk/wp-content/uploads/2018/10/Kompaktventilatorer_AC-axial-fans_2016-01_EN-1.pdf,"https://m.media-amazon.com/images/I/71WavDoARSL._AC_UF1000,1000_QL80_.jpg",,,
+A2D-1088,Cooling Fans,Nidec (0.59A / 1.3A / 1.40A),DC Mix,F17/F18,https://picclick.ca/Business-Industrial/Electrical-Equipment-Supplies/Electronic-Components-Semiconductors/Thermal-Management/Electronic-Component-Fans/,https://www.picclickimg.com/7fUAAeSwSJ9pQvr4/1pcs-850200A501024S076-Encoder.webp,,,
+A2D-1089,Cooling Fans,IMP (48V 0.83A / 2.10A),DC Mix,F17/F18,https://www.delta-fan.com/,https://www.delta-fan.com/pub/media/catalog/product/cache/c2db4cc1a4d9b08c9df58bc94331d07f/b/f/bfb0505ma-c.jpg,,"This product features a voltage range of AC/DC and a current rating of A. It has a package type of and operates within a temperature range of C. The interface type is and its key features include and . Applications for this product include and . With its reliable performance and compact design, this product is ideal for use in various applications such as and .","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""N/A"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""AC/DC"",
+  ""Current Rating"": ""A"",
+  ""Package Type"": ""N/A"",
+  ""Temperature Range"": ""C"",
+  ""Interface"": ""interface type"",
+  ""Key Features"": [
+    ""feature1"",
+    ""feature2""
+  ],
+  ""Applications"": [
+    ""app1"",
+    ""app2""
+  ]
+}"
+A2D-1090,Cooling Fans,Sunon (60x60x38,Small Fans,F22,https://www.sunon.com/eu/MANAGE/Docs/WEBCONT/Files/1236/SUNON%20DC%20Brushless%20Fan%20&%20Blower(255-E).pdf,https://product-images.eetgroup.com/images/200px_jpg/Img_34034910.jpg,,"SUNON's innovative fan solutions offer precise temperature control and reliable performance for various applications. With a focus on innovation and customer satisfaction, SUNON's products are designed to meet the demands of modern technology. Key features include precision measurements, material analysis, and acoustic performance experiments. Applications range from industrial cooling systems to home appliances, with interfaces including DC, AC, and PWM.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""Fan"",
+  ""Manufacturer"": ""SUNON"",
+  ""Operating Voltage"": ""DC"",
+  ""Current Rating"": ""varies"",
+  ""Package Type"": ""module"",
+  ""Temperature Range"": ""-20°C to 80°C"",
+  ""Interface"": ""DC, AC, PWM"",
+  ""Key Features"": [
+    ""Precision Measurements & Material Analysis"",
+    ""Acoustic Performance Experiment""
+  ],
+  ""Applications"": [
+    ""Industrial Cooling Systems"",
+    ""Home Appliances""
+  ]
+}"
+A2D-1091,Cooling Fans,0.67A),Small Fans,F22,https://www.meanwell.com/Upload/PDF/Short_Form_din.pdf,"https://m.media-amazon.com/images/I/51JHsXFdMNL._AC_UF894,1000_QL80_.jpg",,,
+A2D-1092,Cooling Fans,Delta (60x60x38),Small Fans,F22,https://www.delta-fan.com/Upload/IP/Delta_IP.pdf,https://i.ebayimg.com/images/g/iT4AAOSwF6xmCrjQ/s-l1200.jpg,,"The Delta Electronics type fan features a voltage range of and a current rating of. This package type fan operates within a temperature range of -40°C to +70°C, making it suitable for various applications such as and. With key features like and, this interface type fan is an ideal choice for those seeking high-performance fans with precise control.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""type"",
+  ""Manufacturer"": ""Delta Electronics"",
+  ""Operating Voltage"": """",
+  ""Current Rating"": """",
+  ""Package Type"": """",
+  ""Temperature Range"": ""-40~+70°C"",
+  ""Interface"": ""ball/sleeve"",
+  ""Key Features"": [
+    ""N/A""
+  ],
+  ""Applications"": [
+    ""fans and thermal management""
+  ]
+}"
+A2D-1093,Cooling Fans,AVC (70x70x20 2.75A),Small Fans,F22,https://igbt.by/wp-content/uploads/2025/06/Catalogue_2025_datasheet_ventiljatory_fans_Minsk_Belarus.pdf,https://www.delta-fan.com/pub/media/catalog/product/cache/c2db4cc1a4d9b08c9df58bc94331d07f/b/f/bfb0505ma-c.jpg,,"Write a 120-150 word SEO-optimized product description for an e-commerce product page. Base it strictly on the datasheet. Include: 3-5 key technical features, 2-3 main applications, and relevant component keywords (e.g. package type, voltage range, interface). Use a clear, professional tone.","{
+  ""Part Number"": ""A2D-1093"",
+  ""Product Type"": ""N/A"",
+  ""Manufacturer"": ""adda"",
+  ""Operating Voltage"": ""5v, 12v, 24v"",
+  ""Current Rating"": ""0.05a to 6.0a"",
+  ""Package Type"": ""60x10mm, 80x20mm, 80x25mm"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""3pin, interface type N/A"",
+  ""Key Features"": [
+    ""A2D-1093"",
+    ""adda""
+  ],
+  ""Applications"": [
+    ""fan cooling"",
+    ""LED lighting"",
+    ""power supply""
+  ]
+}"
+A2D-1094,Cooling Fans,Nidec (90x90x38),90x90 Fans,F10/F11,https://tiristor.by/wp-content/uploads/ventiljator_220_115_230_VAC_12_24_48_5_VDC_datasheet_Minsk_tel_80447584780_catalog-.pdf,https://i.ebayimg.com/images/g/RTMAAOSw0yJn2Ozo/s-l400.jpg,,"This ultra-tight fan features a double-bearing design for reduced vibration and increased reliability. With a voltage range of 12V to 24V, it's suitable for various applications including 3D printing, industrial machines, and computer cooling systems. Its compact size makes it perfect for miniaturized devices and small spaces. Additionally, its quiet operation ensures minimal disturbance in noise-sensitive environments.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""Fan"",
+  ""Manufacturer"": ""Various"",
+  ""Operating Voltage"": ""12V to 24V"",
+  ""Current Rating"": ""0.14A"",
+  ""Package Type"": ""Compact"",
+  ""Temperature Range"": ""Unknown"",
+  ""Interface"": ""2pin"",
+  ""Key Features"": [
+    ""Double-bearing design for reduced vibration"",
+    ""Ultra-tight fan for increased reliability""
+  ],
+  ""Applications"": [
+    ""3D printing"",
+    ""Industrial machines"",
+    ""Computer cooling systems""
+  ]
+}"
+A2D-1095,Cooling Fans,Harish (90x90x38),90x90 Fans,F10/F11,Not Found,Not Found,,,
+A2D-1096,Cooling Fans,Delta P09038 (12V 1A),90x90 Fans,F10/F11,Not Found,x-raw-image:///86716f6c66d7641e685e69e02d910007038e647e4b2d2251ea64118764e71b6a,,,
+A2D-1097,Cooling Fans,Sunon (DC 12V 0.26A),90x90 Fans,F10/F11,https://tiristor.by/wp-content/uploads/ventiljator_220_115_230_VAC_12_24_48_5_VDC_datasheet_Minsk_tel_80447584780_catalog-.pdf,https://www.coolerguys.com/cdn/shop/products/EL_800x.png?v=1571232686,,"This high-performance fan is designed for heavy-duty applications. Its key features include a voltage range of 12-24V and a current rating of up to 0.20A. It also comes with a package type of DC and an interface type of 2-pin. With its temperature range of -40 to 80°C, it can handle demanding environments. This fan is suitable for use in industrial settings, such as manufacturing and processing facilities, where high airflow and reliability are crucial. Its compact size makes it ideal for small spaces and tight installations. Additionally, its quiet operation ensures minimal noise disturbance. With its robust design and advanced features, this fan is an excellent choice for demanding applications.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""Ventilator"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""12-24V"",
+  ""Current Rating"": ""up to 0.20A"",
+  ""Package Type"": ""DC"",
+  ""Temperature Range"": ""-40 to 80°C"",
+  ""Interface"": ""2-pin"",
+  ""Key Features"": [
+    ""High-performance"",
+    ""Compact size""
+  ],
+  ""Applications"": [
+    ""Industrial settings"",
+    ""Manufacturing and processing facilities""
+  ]
+}"
+A2D-1098,General - Cables,5A/15A CPU Cables,"5A/15A CPU Cables, CPU to Monitor (Thick), Mobile Charger Cables, VGA Cables, Data Cables","Bin 52, 55 ",https://assets.tripplite.com/product-pdfs/en/p034010.pdf,https://media.startech.com/cms/products/gallery_large/pxt101.main.jpg,,"The A2D-1098 5A/15A CPU Cables are a reliable solution for large server applications that require high power connections. This heavy-duty computer power cord features 14 AWG wire, making it suitable for high-power devices. With its 10-foot length, this cable provides great flexibility in placing equipment with respect to the power outlet. Perfect for connecting computers, servers, and monitors to a PDU or UPS system, this cable is also compatible with C20/NEMA 5-15R power connectors. Whether you need to extend an existing power connection or replace a standard power cord, this cable is a great option.","{
+  ""Part Number"": ""A2D-1098"",
+  ""Product Type"": ""Computer Power Cord"",
+  ""Manufacturer"": ""Eaton"",
+  ""Operating Voltage"": ""125V"",
+  ""Current Rating"": ""15A"",
+  ""Package Type"": ""Cable"",
+  ""Temperature Range"": ""-4° to 140°F (-20° to 60°C)"",
+  ""Interface"": ""NEMA 5-15P"",
+  ""Key Features"": [
+    ""Heavy-duty computer power cord"",
+    ""14 AWG wire""
+  ],
+  ""Applications"": [
+    ""Powering computers, servers and other Black network devices"",
+    ""Connecting devices like computers, servers and monitors to a PDU or UPS system""
+  ]
+}"
+A2D-1099,General - Cables,CPU to Monitor (Thick),"5A/15A CPU Cables, CPU to Monitor (Thick), Mobile Charger Cables, VGA Cables, Data Cables","Bin 52, 55 ",https://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c08174111,https://m.media-amazon.com/images/I/81dr15aerZL.jpg,,,
+A2D-1100,General - Cables,Mobile Charger Cables,"5A/15A CPU Cables, CPU to Monitor (Thick), Mobile Charger Cables, VGA Cables, Data Cables","Bin 52, 55 ",https://assets.tripplite.com/product-pdfs/en/u040006c.pdf,https://cdn11.bigcommerce.com/s-niex9u58ma/images/stencil/1280x1280/products/385/1578/DAT-LM2022_ecomm_car_accs_07__81146.1753139141.jpg?c=1,,,
+A2D-1101,General - Cables,VGA Cables,"5A/15A CPU Cables, CPU to Monitor (Thick), Mobile Charger Cables, VGA Cables, Data Cables","Bin 52, 55 ",https://www.hattelandtechnology.com/hubfs/pdf/ind_ds/ds_cables_and_connectors_specfications.pdf,"https://m.media-amazon.com/images/I/61saGSE9mhL._AC_UF894,1000_QL80_.jpg",,"The Hatteland Technology A2D-1101 is a high-performance connector designed for reliable power transmission. With an operating voltage of up to 230VAC and current rating of 20 amperes, it's ideal for industrial applications such as manufacturing automation and process control. Its 12AWG wire and screw termination provide a secure connection, making it suitable for harsh environments. Additionally, its RoHS compliance ensures environmentally friendly production.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""D-SUB connector"",
+  ""Manufacturer"": ""Hatteland Technology"",
+  ""Operating Voltage"": ""230VAC"",
+  ""Current Rating"": ""20 amperes"",
+  ""Package Type"": ""Stamped steel, tin plated (shell) and High temperature resistant thermoplastic, glass reinforced (insert)"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""DC power input male plug with screw terminal"",
+  ""Key Features"": [
+    ""2-pin arrangement"",
+    ""Socket power contacts""
+  ],
+  ""Applications"": [
+    ""Industrial automation"",
+    ""Process control""
+  ]
+}"
+A2D-1102,General - Cables,Data Cables,"5A/15A CPU Cables, CPU to Monitor (Thick), Mobile Charger Cables, VGA Cables, Data Cables","Bin 52, 55 ",https://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL-232R_CABLES.pdf,https://cdn-shop.adafruit.com/970x728/4696-03.jpg,,,
+A2D-1103,General - Adapters,12V Adapters,"12V Adapters, Laptop Adapter Cables, DC Plugs","Bin 64, 52 ",https://www.farnell.com/datasheets/2720924.pdf,"https://m.media-amazon.com/images/I/618r8A-6kEL._AC_UF1000,1000_QL80_.jpg",,"The A2D-1103 Regulated AC Power Adapter provides a reliable source of 12V DC power for your devices. With its input voltage range of 100-240V AC, this adapter can be used in various environments. Its key features include a rated output current of 2A and a maximum inrush current of 35A at cold start. The adapter also boasts a low ripple and noise of +12V DC with a maximum value of 120mVp-p. This adapter is suitable for a range of applications, including powering servers, storage devices, and other equipment that require stable and efficient power supply.","{
+  ""Part Number"": ""A2D-1103"",
+  ""Product Type"": ""type"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""100-240V AC"",
+  ""Current Rating"": ""0.6A Max. @ Any input AC voltage & output full load"",
+  ""Package Type"": ""N/A"",
+  ""Temperature Range"": ""0°C to 40°C, Full load, Normal Operation; Storage Temperature: -40°C to 85°C Relative Humidity: 5% (0°C) ~ 95% (40°C) RH, 72Hrs, Full load, Normal operating"",
+  ""Interface"": ""2 Pin Input plug Outline Dimension Out Cord: UL1185 18AWG VW-1 80° 300V, FT1 Line with word on the cord Length: 1.2m. DC Plug: 5.5mm × 2.1mm × 12mm"",
+  ""Key Features"": [
+    ""Regulated AC Power Adapter"",
+    ""Low Ripple and Noise""
+  ],
+  ""Applications"": [
+    ""Servers"",
+    ""Storage Devices""
+  ]
+}"
+A2D-1104,General - Adapters,Laptop Adapter Cables,"12V Adapters, Laptop Adapter Cables, DC Plugs","Bin 64, 52 ",https://www.opentext.com/assets/documents/en-US/pdf/opentext-ds-tableau-forensic-adapters-and-accessories-en.pdf,"https://m.media-amazon.com/images/I/71s45iCt5gL._AC_UF894,1000_QL80_.jpg",,"The Tableau Forensic adapters and cables provide a range of connectivity options for various digital investigations and forensics applications. With their compact design and reliable performance, they enable seamless data transfer between different devices and media types. Key technical features include USB, SATA, and PCIe interfaces, with voltage ranges from 5V to 24V. These adapters are suitable for use in a variety of applications, including digital evidence collection, data recovery, and forensic analysis.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""Adapters and Cables"",
+  ""Manufacturer"": ""OpenText"",
+  ""Operating Voltage"": ""100-240VAC (TP2 Power Supply), +5VDC @ 2A (+12VDC @ 2A) (TP6)"",
+  ""Current Rating"": ""1.8A (TP2 Power Supply), 5.5A (TP6)"",
+  ""Package Type"": ""DIN (TP6), Barrel connector (TP2 Power Supply)"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""USB, SATA, PCIe"",
+  ""Key Features"": [
+    ""FireWire Bridge"",
+    ""Unified SATA/SAS signal and power""
+  ],
+  ""Applications"": [
+    ""Digital Evidence Collection"",
+    ""Data Recovery"",
+    ""Forensic Analysis""
+  ]
+}"
+A2D-1105,General - Adapters,DC Plugs,"12V Adapters, Laptop Adapter Cables, DC Plugs","Bin 64, 52 ",https://dl.ubnt.com/datasheets/poe/PoE_Adapters_DS.pdf,"https://m.media-amazon.com/images/I/71ngZUEwhAL._AC_UF1000,1000_QL80_.jpg",,"This device is designed for various applications including industrial control systems and data centers. Its key technical features include a high operating voltage range of 100-240VAC, current rating up to 65A, and interface type IEC-320 C6. It also has surge protection capabilities with a maximum discharge of 1500A and response time less than 1ns.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""type"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""100-240VAC"",
+  ""Current Rating"": ""up to 65A"",
+  ""Package Type"": ""N/A"",
+  ""Temperature Range"": ""0 to 40° C (32 to 104° F)"",
+  ""Interface"": ""IEC-320 C6"",
+  ""Key Features"": [
+    ""surge protection"",
+    ""response time less than 1ns""
+  ],
+  ""Applications"": [
+    ""industrial control systems"",
+    ""data centers""
+  ]
+}"
+A2D-1106,General - Tools,Crimping Tools,"Crimping Tools, Cable Cutters, Screw Drivers (Jagdish)",Bin 37 64646464,https://www.farnell.com/datasheets/2995409.pdf,https://www.te.com/content/dam/te-com/catalog/part/000/045/730/45730-t1.jpg/jcr:content/renditions/product-high-res.png,,"The A2D-1106 Crimping Tool is a reliable mechanical crimping solution for tubular cable lugs and connectors. With its indent crimping mechanism, this tool ensures consistently-controlled crimp results thanks to its ratchet feature. Ideal for standard type applications, the K2 crimping tool covers a range of 0.75-16 mm², making it suitable for various industries. Whether you're working on electrical installations or maintenance projects, this tool simplifies and speeds up the process with its easy-to-use design. With a length of 325mm and weight of 0.6kg, it's also convenient to handle and store.","{
+  ""Part Number"": ""A2D-1106"",
+  ""Product Type"": ""Crimping Tools"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""Mechanical"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""N/A"",
+  ""Key Features"": [
+    ""Indent crimping"",
+    ""Ratchet feature for consistently-controlled crimp results""
+  ],
+  ""Applications"": [
+    ""Electrical installations"",
+    ""Maintenance projects""
+  ]
+}"
+A2D-1107,General - Tools,Cable Cutters,"Crimping Tools, Cable Cutters, Screw Drivers (Jagdish)",Bin 37 64646464,https://data.kleintools.com/sites/all/product_assets/documents/brochures/klein/96496_RatchetingCableCutters.pdf,"https://m.media-amazon.com/images/I/512qJBQlpOL._AC_UF894,1000_QL80_.jpg",,,
+A2D-1108,General - Tools,Screw Drivers (Jagdish),"Crimping Tools, Cable Cutters, Screw Drivers (Jagdish)",Bin 37 64646464,https://www.cementexusa.com/wp-content/uploads/2024/09/Cementex_ProductCutSheet_TorqueTools.pdf,https://clarkehandtools.com/wp-content/uploads/2023/08/SCREWDRIVERS-PHILLIPS-FIBRE-HANDLE-01.jpg,,"Cementex Torque Screwdrivers and Wrenches are precision instruments designed to provide accurate torque measurements in various applications. With a range of configurations including adjustable, preset, and fixed heads, these tools meet or exceed ASME B107.14M and ISO 6789 specifications. Key features include audible 'click' indication, dual scale models for easy reading, and spring-loaded collars for secure settings. Applications include terminal connections, tightening torque values, and maintaining manufacturer warranties on equipment. Choose from Torque Screwdrivers and Wrenches with options like X-Drive(R), Short Drive, Fixed Heads, Low Profile, Non-Ratcheting, Clock Wise only, and Preset units.","{
+  ""Part Number"": ""A2D-1108"",
+  ""Product Type"": ""Torque Screwdrivers & Wrenches"",
+  ""Manufacturer"": ""Cementex"",
+  ""Operating Voltage"": ""1000V (insulation coated)"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""Adjustable/Fixed/Preset"",
+  ""Temperature Range"": ""N/A"",
+  ""Interface"": ""Micrometer Scale, Inch-Pounds, Newton-Meters, Foot-Pounds"",
+  ""Key Features"": [
+    ""Precision micrometer scale"",
+    ""Easy-release bit holders"",
+    ""Anti-backlash design""
+  ],
+  ""Applications"": [
+    ""Terminal connections"",
+    ""Tightening torque values"",
+    ""Maintaining manufacturer warranties""
+  ]
+}"
+A2D-1109,General - Components,Berg Sticks,"Berg Sticks, Terminal Blocks, Can Capacitors, Relays (Philips Capacitor), Chokes","Bin 43, 21, 22 ",https://www.el-o-matic.com/documents/configuration-data-sheet-product-configuration-code-en-us-6537862.pdf,https://europeandeli.com/cdn/shop/files/09152.jpg?v=1757371427&width=1080,,"The EL-O-Matic F-Series A2D-1109 Berg Sticks offer a range of technical features that make them suitable for various industrial applications. With their stainless steel pinions and high-grade aluminum construction, these actuators provide excellent corrosion resistance and durability. The F-Series actuators also feature a spring-return design, allowing for easy installation and reliable operation. Additionally, the A2D-1109 Berg Sticks come with a variety of interface options, including ISO 5211 and DIN3337, making them compatible with a range of control systems. Whether you're looking to automate a process or improve efficiency in your facility, the EL-O-Matic F-Series A2D-1109 Berg Sticks are an excellent choice.","{
+  ""Part Number"": ""A2D-1109"",
+  ""Product Type"": ""Miscellaneous options"",
+  ""Manufacturer"": ""EL-O-Matic"",
+  ""Operating Voltage"": ""N/A"",
+  ""Current Rating"": ""N/A"",
+  ""Package Type"": ""Various sizes (e.g. 0012, 0350)"",
+  ""Temperature Range"": ""Standard: -20 °C to +80 °C (-4 °F to +176 °F), High: -10 °C to +120 °C (+14 °F to +250 °F), Low: -40 °C to +80 °C (-40 °F to +176° F)"",
+  ""Interface"": ""ISO 5211, DIN3337"",
+  ""Key Features"": [
+    ""Spring-return design"",
+    ""Corrosion-resistant materials""
+  ],
+  ""Applications"": [
+    ""Industrial automation"",
+    ""Process control""
+  ]
+}"
+A2D-1110,General - Components,Terminal Blocks,"Berg Sticks, Terminal Blocks, Can Capacitors, Relays (Philips Capacitor), Chokes","Bin 43, 21, 22 ",https://literature.rockwellautomation.com/idc/groups/literature/documents/td/1492-td015_-en-p.pdf,"https://m.media-amazon.com/images/I/410x1k4y+EL._AC_UF894,1000_QL80_.jpg",,"The type terminal block offers a reliable and efficient solution for various applications. With its operating voltage range of 300V AC/DC, it can be used in a variety of settings. The current rating of up to 10A makes it suitable for demanding applications. Its package type allows for easy installation and connection. The temperature range of -40°C to +195°C ensures reliable operation in various environments. This terminal block is ideal for use in type applications, such as circuit breakers, sensors, and more.","{
+  ""Part Number"": ""N/A"",
+  ""Product Type"": ""type"",
+  ""Manufacturer"": ""maker"",
+  ""Operating Voltage"": ""300V AC/DC"",
+  ""Current Rating"": ""up to 10A"",
+  ""Package Type"": ""package type"",
+  ""Temperature Range"": ""-40°C to +195°C"",
+  ""Interface"": ""interface type"",
+  ""Key Features"": [
+    ""feed-through grounding"",
+    ""three-circuit terminal block""
+  ],
+  ""Applications"": [
+    ""circuit breakers"",
+    ""sensors""
+  ]
+}"
+A2D-1111,General - Components,Can Capacitors,"Berg Sticks, Terminal Blocks, Can Capacitors, Relays (Philips Capacitor), Chokes","Bin 43, 21, 22 ",https://product.tdk.com/system/files/dam/doc/product/capacitor/aluminum-electrolytic/screw-terminal/catalog/al_can_large_b43564_b43584.pdf,https://i.ebayimg.com/images/g/5K8AAOSwsXFjJ2u-/s-l1200.jpg,,,
+A2D-1112,General - Components,Relays (Philips Capacitor),"Berg Sticks, Terminal Blocks, Can Capacitors, Relays (Philips Capacitor), Chokes","Bin 43, 21, 22 ",https://datasheet.octopart.com/136-10313-Hella-datasheet-42666579.pdf,https://www.classicindustries.com/images/productimages/b/b11158.jpg,,,
+A2D-1113,General - Components,Chokes,"Berg Sticks, Terminal Blocks, Can Capacitors, Relays (Philips Capacitor), Chokes","Bin 43, 21, 22 ",https://www.bourns.com/docs/product-datasheets/70f.pdf,https://i.ebayimg.com/images/g/p-EAAOSwjL5ZL~yB/s-l1200.jpg,,,
+A2D-1114,General - Displays,Dual Monitor Stand,"Dual Monitor Stand, Display with Remote","Bin 65, 26 ",https://assets.tripplite.com/product-pdfs/en/dmr1015.pdf,https://m.media-amazon.com/images/I/61k5r-0x2xL._AC_SL1500_.jpg,,,
+A2D-1115,General - Displays,Display with Remote,"Dual Monitor Stand, Display with Remote","Bin 65, 26 ",https://www.barco.com/content/dam/barco-dam/downloads/TDE12592-Technical-Specifications-Display-Management.pdf,https://m.media-amazon.com/images/I/71XyYf4ZlDL._AC_SL1500_.jpg,,,
+A2D-1116,General - Power,0-30V Power Supply,"0-30V Power Supply, SMPS Fridge Guards, 60V Fire Alarm Sets","Bin 66, 44 ",https://www.circuitspecialists.com/content/18659/csi3005x5-manual.pdf,https://m.media-amazon.com/images/I/71XyYf4ZlDL._AC_SL1500_.jpg,,,
+A2D-1117,General - Power,SMPS Fridge Guards,"0-30V Power Supply, SMPS Fridge Guards, 60V Fire Alarm Sets","Bin 66, 44 ",https://5.imimg.com/data5/SELLER/Doc/2021/4/MI/SN/MV/117366373/fridge-guard.pdf,https://www.surgeenergy.ca/wp-content/uploads/2019/12/Surge_Energy_Inc._Logo.png,,,
+A2D-1118,General - Power,60V Fire Alarm Sets,"0-30V Power Supply, SMPS Fridge Guards, 60V Fire Alarm Sets","Bin 66, 44 ",https://www.honeywellbuildings.in/assets/files/fire/datasheets/Fire-Alarm-Control-Panel.pdf,"https://m.media-amazon.com/images/I/618r8A-6kEL._AC_UF1000,1000_QL80_.jpg",,,
+A2D-1119,General - Motors,Stepper Big NEMA 23,"Stepper Big NEMA 23, NEMA 17 Stepper, Medical Motors","Bin 23, 40 ",https://www.omc-stepperonline.com/download/23HS45-4204S.pdf,"https://m.media-amazon.com/images/I/618r8A-6kEL._AC_UF1000,1000_QL80_.jpg",,,
+A2D-1120,General - Motors,NEMA 17 Stepper,"Stepper Big NEMA 23, NEMA 17 Stepper, Medical Motors","Bin 23, 40 ",https://www.omc-stepperonline.com/download/17HS19-2004S1.pdf,"https://m.media-amazon.com/images/I/618r8A-6kEL._AC_UF1000,1000_QL80_.jpg",,,
+A2D-1121,General - Motors,Medical Motors,"Stepper Big NEMA 23, NEMA 17 Stepper, Medical Motors","Bin 23, 40 ",https://www.maxongroup.com/medias/sys_master/root/8840546942998/Medical-Technology-Brochure-2020-EN.pdf,"https://m.media-amazon.com/images/I/618r8A-6kEL._AC_UF1000,1000_QL80_.jpg",,,
